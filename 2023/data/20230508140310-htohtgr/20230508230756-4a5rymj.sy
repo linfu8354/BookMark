@@ -1,0 +1,39 @@
+{
+	"ID": "20230508230756-4a5rymj",
+	"Spec": "1",
+	"Type": "NodeDocument",
+	"Properties": {
+		"id": "20230508230756-4a5rymj",
+		"title": "矩阵",
+		"updated": "20230508230818"
+	},
+	"Children": [
+		{
+			"ID": "20230508230756-bnxbc55",
+			"Type": "NodeCodeBlock",
+			"IsFencedCodeBlock": true,
+			"Properties": {
+				"id": "20230508230756-bnxbc55",
+				"updated": "20230508230818"
+			},
+			"Children": [
+				{
+					"Type": "NodeCodeBlockFenceOpenMarker",
+					"Data": "```"
+				},
+				{
+					"Type": "NodeCodeBlockFenceInfoMarker",
+					"CodeBlockInfo": "Y2c="
+				},
+				{
+					"Type": "NodeCodeBlockCode",
+					"Data": "//平移矩阵\n\nfloat4x4 Translational(float4 translational)\n\n{\n\nreturn float4x4(1.0, 0.0, 0.0, translational.x,\n\n0.0, 1.0, 0.0, translational.y,\n\n0.0, 0.0, 1.0, translational.z,\n\n0.0, 0.0, 0.0, 1.0);\n\n}\n\n\n\n\n\n\n//缩放矩阵\n\nfloat4x4 Scale(float4 scale)\n\n{\n\nreturn float4x4(scale.x, 0.0, 0.0, 0.0,\n\n0.0, scale.y, 0.0, 0.0,\n\n0.0, 0.0, scale.z, 0.0,\n\n0.0, 0.0, 0.0, 1.0);\n\n}\n\n\n\n\n\n\n//旋转矩阵\n\nfloat4x4 TRSBlend(float4 rotation)\n\n{\n\nfloat radX = radians(rotation.x);\n\nfloat radY = radians(rotation.y);\n\nfloat radZ = radians(rotation.z);\n\nfloat sinX = sin(radX);\n\nfloat cosX = cos(radX);\n\nfloat sinY = sin(radY);\n\nfloat cosY = cos(radY);\n\nfloat sinZ = sin(radZ);\n\nfloat cosZ = cos(radZ);\n\nfloat4x4 r= float4x4(cosY*cosZ, -cosY * sinZ, sinY, 0.0,\n\ncosX*sinZ + sinX * sinY*cosZ, cosX*cosZ - sinX * sinY*sinZ, -sinX * cosY, 0.0,\n\nsinX*sinZ - cosX * sinY*cosZ, sinX*cosZ + cosX * sinY*sinZ, cosX*cosY, 0.0,\n\n0.0, 0.0, 0.0, 1.0);\n\nfloat4x4 tr = mul(Translational(_Translational), r);\n\nreturn mul(tr, Scale(_Scale));\n\n}\n"
+				},
+				{
+					"Type": "NodeCodeBlockFenceCloseMarker",
+					"Data": "```"
+				}
+			]
+		}
+	]
+}

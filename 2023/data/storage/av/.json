@@ -1,0 +1,47 @@
+{
+	"spec": 0,
+	"id": "",
+	"columns": [
+		{
+			"id": "20230508112015-pa71sm1",
+			"name": "Block",
+			"type": "block",
+			"attributeViewId": "",
+			"relationColumnId": "",
+			"options": null
+		}
+	],
+	"rows": [
+		{
+			"id": "20230508112015-oi4rlgp",
+			"cells": [
+				{
+					"id": "20230508112015-g3lnsn4",
+					"value": "20230508111857-1lmo90p"
+				}
+			]
+		},
+		{
+			"id": "20230508140949-0f9n48a",
+			"cells": [
+				{
+					"id": "20230508140949-1k2kzu6",
+					"value": "20230508140928-uqrjte2"
+				}
+			]
+		},
+		{
+			"id": "20230508232656-1gtqxta",
+			"cells": [
+				{
+					"id": "20230508232656-jyabyco",
+					"value": "20230508232639-qdg7xbo"
+				}
+			]
+		}
+	],
+	"type": "table",
+	"projections": [],
+	"filters": [],
+	"sorts": []
+}

@@ -1,0 +1,39 @@
+{
+	"ID": "20230508230722-j5lc4qt",
+	"Spec": "1",
+	"Type": "NodeDocument",
+	"Properties": {
+		"id": "20230508230722-j5lc4qt",
+		"title": "直角坐标系 To 极坐标",
+		"updated": "20230508230735"
+	},
+	"Children": [
+		{
+			"ID": "20230508230722-f7piysd",
+			"Type": "NodeCodeBlock",
+			"IsFencedCodeBlock": true,
+			"Properties": {
+				"id": "20230508230722-f7piysd",
+				"updated": "20230508230735"
+			},
+			"Children": [
+				{
+					"Type": "NodeCodeBlockFenceOpenMarker",
+					"Data": "```"
+				},
+				{
+					"Type": "NodeCodeBlockFenceInfoMarker",
+					"CodeBlockInfo": "Y2c="
+				},
+				{
+					"Type": "NodeCodeBlockCode",
+					"Data": "float2 Polar(float2 UV)\n{\n    //0~1的1象限转-0.5~0.5的四象限     float2 uv = UV-0.5;\n\n    //d为各个象限坐标到0点距离,数值为0~0.5     float distance=length(uv);\n\n    //0~0.5放大到0~1     distance *=2;\n\n    //4象限坐标求弧度范围是 [-pi,+pi]     float angle=atan2(uv.x,uv.y);\n              \n    //把 [-pi,+pi]转换为0~1     float angle01=angle/3.14159/2+0.5;\n\n    //输出角度与距离     return float2(angle01,distance);\n}\n"
+				},
+				{
+					"Type": "NodeCodeBlockFenceCloseMarker",
+					"Data": "```"
+				}
+			]
+		}
+	]
+}

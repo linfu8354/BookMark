@@ -1,0 +1,3676 @@
+{
+	"ID": "20230508142940-dwp04mk",
+	"Spec": "1",
+	"Type": "NodeDocument",
+	"Properties": {
+		"id": "20230508142940-dwp04mk",
+		"scroll": "{\u0026quot;startId\u0026quot;:\u0026quot;20230508153358-83b2pcn\u0026quot;,\u0026quot;endId\u0026quot;:\u0026quot;20230508143081-ij1wlzz\u0026quot;,\u0026quot;scrollTop\u0026quot;:447}",
+		"title": "InteriorMapping（表面内部空间映射） ",
+		"updated": "20230508160110"
+	},
+	"Children": [
+		{
+			"ID": "20230508153358-83b2pcn",
+			"Type": "NodeHeading",
+			"HeadingLevel": 2,
+			"Properties": {
+				"id": "20230508153358-83b2pcn",
+				"updated": "20230508153358"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "游戏实例"
+				}
+			]
+		},
+		{
+			"ID": "20230508153358-zi98quq",
+			"Type": "NodeList",
+			"ListData": {},
+			"Properties": {
+				"id": "20230508153358-zi98quq",
+				"updated": "20230508153358"
+			},
+			"Children": [
+				{
+					"ID": "20230508153358-u18lffv",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20230508153358-u18lffv",
+						"updated": "20230508153358"
+					},
+					"Children": [
+						{
+							"ID": "20230508153358-ydsyahn",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20230508153358-ydsyahn",
+								"updated": "20230508153358"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "在《漫威蜘蛛侠》，角色在建筑物上爬墙的中，似乎能“透过”玻璃看到建筑内部但其实在拐角处的时候能发现奇怪的地方"
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20230508153514-hz5gf12",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20230508153514-hz5gf12",
+				"updated": "20230508154834"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "​​"
+				},
+				{
+					"Type": "NodeImage",
+					"Data": "span",
+					"Children": [
+						{
+							"Type": "NodeBang"
+						},
+						{
+							"Type": "NodeOpenBracket"
+						},
+						{
+							"Type": "NodeLinkText",
+							"Data": "漫威蜘蛛侠"
+						},
+						{
+							"Type": "NodeCloseBracket"
+						},
+						{
+							"Type": "NodeOpenParen"
+						},
+						{
+							"Type": "NodeLinkDest",
+							"Data": "assets/漫威蜘蛛侠-20230508154834-q3qpx7y.gif"
+						},
+						{
+							"Type": "NodeCloseParen"
+						}
+					]
+				},
+				{
+					"Type": "NodeText",
+					"Data": "​​"
+				}
+			]
+		},
+		{
+			"ID": "20230508153358-4spwmnf",
+			"Type": "NodeList",
+			"ListData": {},
+			"Properties": {
+				"id": "20230508153358-4spwmnf",
+				"updated": "20230508153358"
+			},
+			"Children": [
+				{
+					"ID": "20230508153358-e65hbtz",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20230508153358-e65hbtz",
+						"updated": "20230508153358"
+					},
+					"Children": [
+						{
+							"ID": "20230508153358-vqbuaud",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20230508153358-vqbuaud",
+								"updated": "20230508153358"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "《守望先锋》的效果"
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20230508153520-78nsdwi",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20230508153520-78nsdwi",
+				"updated": "20230508154753"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "​​"
+				},
+				{
+					"Type": "NodeImage",
+					"Data": "span",
+					"Children": [
+						{
+							"Type": "NodeBang"
+						},
+						{
+							"Type": "NodeOpenBracket"
+						},
+						{
+							"Type": "NodeLinkText",
+							"Data": "守望先锋"
+						},
+						{
+							"Type": "NodeCloseBracket"
+						},
+						{
+							"Type": "NodeOpenParen"
+						},
+						{
+							"Type": "NodeLinkDest",
+							"Data": "assets/守望先锋-20230508154752-rl56ve9.gif"
+						},
+						{
+							"Type": "NodeCloseParen"
+						}
+					]
+				},
+				{
+					"Type": "NodeText",
+					"Data": "​​​​"
+				}
+			]
+		},
+		{
+			"ID": "20230508153358-txfbl0o",
+			"Type": "NodeList",
+			"ListData": {},
+			"Properties": {
+				"id": "20230508153358-txfbl0o",
+				"updated": "20230508153358"
+			},
+			"Children": [
+				{
+					"ID": "20230508153358-9fsoals",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20230508153358-9fsoals",
+						"updated": "20230508153358"
+					},
+					"Children": [
+						{
+							"ID": "20230508153358-dfmtdwm",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20230508153358-dfmtdwm",
+								"updated": "20230508153358"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "在《七大罪》的游戏中模拟室内的效果"
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20230508153505-fo5tpcl",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20230508153505-fo5tpcl",
+				"updated": "20230508154816"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "​​"
+				},
+				{
+					"Type": "NodeImage",
+					"Data": "span",
+					"Children": [
+						{
+							"Type": "NodeBang"
+						},
+						{
+							"Type": "NodeOpenBracket"
+						},
+						{
+							"Type": "NodeLinkText",
+							"Data": "七大罪"
+						},
+						{
+							"Type": "NodeCloseBracket"
+						},
+						{
+							"Type": "NodeOpenParen"
+						},
+						{
+							"Type": "NodeLinkDest",
+							"Data": "assets/七大罪-20230508154816-wwwhnw9.gif"
+						},
+						{
+							"Type": "NodeCloseParen"
+						}
+					]
+				},
+				{
+					"Type": "NodeText",
+					"Data": "​​"
+				}
+			]
+		},
+		{
+			"ID": "20230508142955-fw5okne",
+			"Type": "NodeHeading",
+			"HeadingLevel": 2,
+			"Properties": {
+				"id": "20230508142955-fw5okne",
+				"updated": "20230508142955"
+			},
+			"Children": [
+				{
+					"Type": "NodeHeadingC8hMarker",
+					"Data": "## ",
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
+					"Type": "NodeText",
+					"Data": "优点与缺点",
+					"Properties": {
+						"id": ""
+					}
+				}
+			]
+		},
+		{
+			"ID": "20230508142956-e97yn4f",
+			"Type": "NodeList",
+			"ListData": {
+				"Tight": true,
+				"BulletChar": 45,
+				"Padding": 2,
+				"Marker": "LQ==",
+				"Num": -1
+			},
+			"Properties": {
+				"id": "20230508142956-e97yn4f",
+				"updated": "20230508142956"
+			},
+			"Children": [
+				{
+					"ID": "20230508142957-9skpfsl",
+					"Type": "NodeListItem",
+					"Data": "-",
+					"ListData": {
+						"Tight": true,
+						"BulletChar": 45,
+						"Padding": 2,
+						"Marker": "LQ==",
+						"Num": -1
+					},
+					"Properties": {
+						"id": "20230508142957-9skpfsl",
+						"updated": "20230508142957"
+					},
+					"Children": [
+						{
+							"ID": "20230508142958-2jxbrij",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20230508142958-2jxbrij",
+								"updated": "20230508142958"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "优点",
+									"Properties": {
+										"id": ""
+									}
+								}
+							]
+						},
+						{
+							"ID": "20230508142959-6d7ffkg",
+							"Type": "NodeList",
+							"ListData": {
+								"Typ": 1,
+								"Tight": true,
+								"Start": 1,
+								"Delimiter": 46,
+								"Padding": 3,
+								"MarkerOffset": 2,
+								"Marker": "MQ==",
+								"Num": 1
+							},
+							"Properties": {
+								"id": "20230508142959-6d7ffkg",
+								"updated": "20230508142959"
+							},
+							"Children": [
+								{
+									"ID": "20230508142960-lw0i6a3",
+									"Type": "NodeListItem",
+									"Data": "1",
+									"ListData": {
+										"Typ": 1,
+										"Tight": true,
+										"Start": 1,
+										"Delimiter": 46,
+										"Padding": 3,
+										"MarkerOffset": 2,
+										"Marker": "MQ==",
+										"Num": 1
+									},
+									"Properties": {
+										"id": "20230508142960-lw0i6a3",
+										"updated": "20230508142960"
+									},
+									"Children": [
+										{
+											"ID": "20230508142961-548u051",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20230508142961-548u051",
+												"updated": "20230508142961"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "采用平面模拟室内，节省大量内部空间的顶点消耗",
+													"Properties": {
+														"id": ""
+													}
+												}
+											]
+										}
+									]
+								},
+								{
+									"ID": "20230508142962-6v1efdi",
+									"Type": "NodeListItem",
+									"Data": "2",
+									"ListData": {
+										"Typ": 1,
+										"Tight": true,
+										"Start": 2,
+										"Delimiter": 46,
+										"Padding": 3,
+										"MarkerOffset": 2,
+										"Marker": "Mg==",
+										"Num": 2
+									},
+									"Properties": {
+										"id": "20230508142962-6v1efdi",
+										"updated": "20230508142962"
+									},
+									"Children": [
+										{
+											"ID": "20230508142963-syh2inf",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20230508142963-syh2inf",
+												"updated": "20230508142963"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "实用于室内模拟，高楼大厦的窗户内部细节填充",
+													"Properties": {
+														"id": ""
+													}
+												}
+											]
+										}
+									]
+								},
+								{
+									"ID": "20230508142964-lpqrgw7",
+									"Type": "NodeListItem",
+									"Data": "3",
+									"ListData": {
+										"Typ": 1,
+										"Tight": true,
+										"Start": 3,
+										"Delimiter": 46,
+										"Padding": 3,
+										"MarkerOffset": 2,
+										"Marker": "Mw==",
+										"Num": 3
+									},
+									"Properties": {
+										"id": "20230508142964-lpqrgw7",
+										"updated": "20230508142964"
+									},
+									"Children": [
+										{
+											"ID": "20230508142965-6ed5ka3",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20230508142965-6ed5ka3",
+												"updated": "20230508142965"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "通过Shader或贴图，可实现室内的多样性，室内灯光的明暗效果，增加内部细节（人物图像等）",
+													"Properties": {
+														"id": ""
+													}
+												}
+											]
+										}
+									]
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20230508142966-uf8dpwl",
+					"Type": "NodeListItem",
+					"Data": "-",
+					"ListData": {
+						"Tight": true,
+						"BulletChar": 45,
+						"Padding": 2,
+						"Marker": "LQ==",
+						"Num": -1
+					},
+					"Properties": {
+						"id": "20230508142966-uf8dpwl",
+						"updated": "20230508142966"
+					},
+					"Children": [
+						{
+							"ID": "20230508142967-dxx52qw",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20230508142967-dxx52qw",
+								"updated": "20230508142967"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "缺点",
+									"Properties": {
+										"id": ""
+									}
+								}
+							]
+						},
+						{
+							"ID": "20230508142968-2wmo0ou",
+							"Type": "NodeList",
+							"ListData": {
+								"Typ": 1,
+								"Tight": true,
+								"Start": 1,
+								"Delimiter": 46,
+								"Padding": 3,
+								"MarkerOffset": 2,
+								"Marker": "MQ==",
+								"Num": 1
+							},
+							"Properties": {
+								"id": "20230508142968-2wmo0ou",
+								"updated": "20230508142968"
+							},
+							"Children": [
+								{
+									"ID": "20230508142969-not4vgd",
+									"Type": "NodeListItem",
+									"Data": "1",
+									"ListData": {
+										"Typ": 1,
+										"Tight": true,
+										"Start": 1,
+										"Delimiter": 46,
+										"Padding": 3,
+										"MarkerOffset": 2,
+										"Marker": "MQ==",
+										"Num": 1
+									},
+									"Properties": {
+										"id": "20230508142969-not4vgd",
+										"updated": "20230508142969"
+									},
+									"Children": [
+										{
+											"ID": "20230508142970-xbunicq",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20230508142970-xbunicq",
+												"updated": "20230508142970"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "无法迭代Shader之外的外部细节（额外摆放桌子、椅子、壁画等物件）",
+													"Properties": {
+														"id": ""
+													}
+												}
+											]
+										}
+									]
+								},
+								{
+									"ID": "20230508142971-y1qkqvx",
+									"Type": "NodeListItem",
+									"Data": "2",
+									"ListData": {
+										"Typ": 1,
+										"Tight": true,
+										"Start": 2,
+										"Delimiter": 46,
+										"Padding": 3,
+										"MarkerOffset": 2,
+										"Marker": "Mg==",
+										"Num": 2
+									},
+									"Properties": {
+										"id": "20230508142971-y1qkqvx",
+										"updated": "20230508142971"
+									},
+									"Children": [
+										{
+											"ID": "20230508142972-v5hcw5i",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20230508142972-v5hcw5i",
+												"updated": "20230508142972"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "无交互性，无动画表现",
+													"Properties": {
+														"id": ""
+													}
+												}
+											]
+										}
+									]
+								},
+								{
+									"ID": "20230508142973-81a067q",
+									"Type": "NodeListItem",
+									"Data": "3",
+									"ListData": {
+										"Typ": 1,
+										"Tight": true,
+										"Start": 3,
+										"Delimiter": 46,
+										"Padding": 3,
+										"MarkerOffset": 2,
+										"Marker": "Mw==",
+										"Num": 3
+									},
+									"Properties": {
+										"id": "20230508142973-81a067q",
+										"updated": "20230508142973"
+									},
+									"Children": [
+										{
+											"ID": "20230508142974-dey9ctw",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20230508142974-dey9ctw",
+												"updated": "20230508142974"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "只能通过再次制作对应的贴图，来实现细节的补充",
+													"Properties": {
+														"id": ""
+													}
+												}
+											]
+										}
+									]
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20230508142975-qmdkco9",
+			"Type": "NodeHeading",
+			"HeadingLevel": 2,
+			"Properties": {
+				"id": "20230508142975-qmdkco9",
+				"updated": "20230508142975"
+			},
+			"Children": [
+				{
+					"Type": "NodeHeadingC8hMarker",
+					"Data": "## ",
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
+					"Type": "NodeText",
+					"Data": "实现方式",
+					"Properties": {
+						"id": ""
+					}
+				}
+			]
+		},
+		{
+			"ID": "20230508142976-kwfwlv5",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20230508142976-kwfwlv5",
+				"updated": "20230508142976"
+			},
+			"Children": [
+				{
+					"Type": "NodeTextMark",
+					"Properties": {
+						"id": ""
+					},
+					"TextMarkType": "code",
+					"TextMarkTextContent": "效果相差不大，只是原理不同，精度略有差异"
+				}
+			]
+		},
+		{
+			"ID": "20230508142977-gsxz9cj",
+			"Type": "NodeHeading",
+			"HeadingLevel": 3,
+			"Properties": {
+				"fold": "1",
+				"id": "20230508142977-gsxz9cj",
+				"updated": "20230508142977"
+			},
+			"Children": [
+				{
+					"Type": "NodeHeadingC8hMarker",
+					"Data": "### ",
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
+					"Type": "NodeText",
+					"Data": "采样方式",
+					"Properties": {
+						"id": ""
+					}
+				}
+			]
+		},
+		{
+			"ID": "20230508142978-yd5cn7d",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"fold": "1",
+				"heading-fold": "1",
+				"id": "20230508142978-yd5cn7d",
+				"updated": "20230508142978"
+			},
+			"Children": [
+				{
+					"Type": "NodeTextMark",
+					"Properties": {
+						"id": ""
+					},
+					"TextMarkType": "strong code",
+					"TextMarkTextContent": "目前，实现方式包含：2D 纹理映射、立方体（CubeMap）映射内部"
+				}
+			]
+		},
+		{
+			"ID": "20230508142979-joixttu",
+			"Type": "NodeList",
+			"ListData": {
+				"BulletChar": 45,
+				"Padding": 2,
+				"Marker": "LQ==",
+				"Num": -1
+			},
+			"Properties": {
+				"fold": "1",
+				"heading-fold": "1",
+				"id": "20230508142979-joixttu",
+				"updated": "20230508152541"
+			},
+			"Children": [
+				{
+					"ID": "20230508142980-l9ox627",
+					"Type": "NodeListItem",
+					"Data": "-",
+					"ListData": {
+						"BulletChar": 45,
+						"Padding": 2,
+						"Marker": "LQ==",
+						"Num": -1
+					},
+					"Properties": {
+						"id": "20230508142980-l9ox627",
+						"updated": "20230508152541"
+					},
+					"Children": [
+						{
+							"ID": "20230508142981-yojflck",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20230508142981-yojflck",
+								"updated": "20230508142981"
+							},
+							"Children": [
+								{
+									"Type": "NodeTextMark",
+									"Properties": {
+										"id": ""
+									},
+									"TextMarkType": "strong strong",
+									"TextMarkTextContent": "2D 纹理映射"
+								}
+							]
+						},
+						{
+							"ID": "20230508142982-19efndl",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20230508142982-19efndl",
+								"updated": "20230508142982"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "房间样式固定",
+									"Properties": {
+										"id": ""
+									}
+								}
+							]
+						},
+						{
+							"ID": "20230508142983-wi71imf",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20230508142983-wi71imf",
+								"updated": "20230508142983"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "A通道，可以存储深度信息，可用于模拟不同房间的深度",
+									"Properties": {
+										"id": ""
+									}
+								}
+							]
+						},
+						{
+							"ID": "20230508142984-alx8chg",
+							"Type": "NodeList",
+							"ListData": {
+								"BulletChar": 45,
+								"Padding": 2,
+								"MarkerOffset": 2,
+								"Marker": "LQ==",
+								"Num": -1
+							},
+							"Properties": {
+								"id": "20230508142984-alx8chg",
+								"updated": "20230508152541"
+							},
+							"Children": [
+								{
+									"ID": "20230508142985-2jvr74e",
+									"Type": "NodeListItem",
+									"Data": "-",
+									"ListData": {
+										"BulletChar": 45,
+										"Padding": 2,
+										"MarkerOffset": 2,
+										"Marker": "LQ==",
+										"Num": -1
+									},
+									"Properties": {
+										"id": "20230508142985-2jvr74e",
+										"updated": "20230508142985"
+									},
+									"Children": [
+										{
+											"ID": "20230508142986-eem7izl",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20230508142986-eem7izl",
+												"updated": "20230508142986"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "单个房间",
+													"Properties": {
+														"id": ""
+													}
+												}
+											]
+										},
+										{
+											"ID": "20230508142987-1mn38jt",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20230508142987-1mn38jt",
+												"updated": "20230508142987"
+											},
+											"Children": [
+												{
+													"Type": "NodeImage",
+													"Properties": {
+														"id": ""
+													},
+													"Children": [
+														{
+															"Type": "NodeBang",
+															"Data": "!",
+															"Properties": {
+																"id": ""
+															}
+														},
+														{
+															"Type": "NodeOpenBracket",
+															"Data": "[",
+															"Properties": {
+																"id": ""
+															}
+														},
+														{
+															"Type": "NodeLinkText",
+															"Data": "interior_2d_Single.png",
+															"Properties": {
+																"id": ""
+															}
+														},
+														{
+															"Type": "NodeCloseBracket",
+															"Data": "]",
+															"Properties": {
+																"id": ""
+															}
+														},
+														{
+															"Type": "NodeOpenParen",
+															"Data": "(",
+															"Properties": {
+																"id": ""
+															}
+														},
+														{
+															"Type": "NodeLinkDest",
+															"Data": "assets/interior_2d_Single-20230508143213-hl84qaf.png",
+															"Properties": {
+																"id": ""
+															}
+														},
+														{
+															"Type": "NodeCloseParen",
+															"Data": ")",
+															"Properties": {
+																"id": ""
+															}
+														}
+													]
+												}
+											]
+										}
+									]
+								},
+								{
+									"ID": "20230508142988-oatj8j7",
+									"Type": "NodeListItem",
+									"Data": "-",
+									"ListData": {
+										"Tight": true,
+										"BulletChar": 45,
+										"Padding": 2,
+										"MarkerOffset": 2,
+										"Marker": "LQ==",
+										"Num": -1
+									},
+									"Properties": {
+										"id": "20230508142988-oatj8j7",
+										"updated": "20230508152509"
+									},
+									"Children": [
+										{
+											"ID": "20230508142989-7qhil73",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20230508142989-7qhil73",
+												"updated": "20230508142989"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "多个房间",
+													"Properties": {
+														"id": ""
+													}
+												}
+											]
+										},
+										{
+											"ID": "20230508152509-cq094fl",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20230508152509-cq094fl",
+												"updated": "20230508152509"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "​"
+												},
+												{
+													"Type": "NodeImage",
+													"Data": "span",
+													"Children": [
+														{
+															"Type": "NodeBang"
+														},
+														{
+															"Type": "NodeOpenBracket"
+														},
+														{
+															"Type": "NodeLinkText",
+															"Data": "image"
+														},
+														{
+															"Type": "NodeCloseBracket"
+														},
+														{
+															"Type": "NodeOpenParen"
+														},
+														{
+															"Type": "NodeLinkDest",
+															"Data": "assets/image-20230508152509-dudjiqh.png"
+														},
+														{
+															"Type": "NodeCloseParen"
+														}
+													]
+												},
+												{
+													"Type": "NodeText",
+													"Data": "​"
+												}
+											]
+										}
+									]
+								},
+								{
+									"ID": "20230508142991-kd9vx98",
+									"Type": "NodeListItem",
+									"Data": "-",
+									"ListData": {
+										"Tight": true,
+										"BulletChar": 45,
+										"Padding": 2,
+										"MarkerOffset": 2,
+										"Marker": "LQ==",
+										"Num": -1
+									},
+									"Properties": {
+										"id": "20230508142991-kd9vx98",
+										"updated": "20230508152541"
+									},
+									"Children": [
+										{
+											"ID": "20230508142992-q7ksigw",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20230508142992-q7ksigw",
+												"updated": "20230508142992"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "截图示例",
+													"Properties": {
+														"id": ""
+													}
+												}
+											]
+										},
+										{
+											"ID": "20230508152541-une31q0",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20230508152541-une31q0",
+												"updated": "20230508152541"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "​"
+												},
+												{
+													"Type": "NodeImage",
+													"Data": "span",
+													"Children": [
+														{
+															"Type": "NodeBang"
+														},
+														{
+															"Type": "NodeOpenBracket"
+														},
+														{
+															"Type": "NodeLinkText",
+															"Data": "image"
+														},
+														{
+															"Type": "NodeCloseBracket"
+														},
+														{
+															"Type": "NodeOpenParen"
+														},
+														{
+															"Type": "NodeLinkDest",
+															"Data": "assets/image-20230508152541-b3apwsi.png"
+														},
+														{
+															"Type": "NodeCloseParen"
+														}
+													]
+												},
+												{
+													"Type": "NodeText",
+													"Data": "​"
+												}
+											]
+										}
+									]
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20230508142994-qgl3zzr",
+					"Type": "NodeListItem",
+					"Data": "-",
+					"ListData": {
+						"Tight": true,
+						"BulletChar": 45,
+						"Padding": 2,
+						"Marker": "LQ==",
+						"Num": -1
+					},
+					"Properties": {
+						"id": "20230508142994-qgl3zzr",
+						"updated": "20230508142994"
+					},
+					"Children": [
+						{
+							"ID": "20230508142995-e7eqp5n",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20230508142995-e7eqp5n",
+								"updated": "20230508142995"
+							},
+							"Children": [
+								{
+									"Type": "NodeTextMark",
+									"Properties": {
+										"id": ""
+									},
+									"TextMarkType": "strong strong",
+									"TextMarkTextContent": "立方体（CubeMap）映射内部"
+								}
+							]
+						},
+						{
+							"ID": "20230508142996-7irlk8e",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20230508142996-7irlk8e",
+								"updated": "20230508142996"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "通过Shader的旋转操作，可实现房间的多样性",
+									"Properties": {
+										"id": ""
+									}
+								}
+							]
+						},
+						{
+							"ID": "20230508142997-bnxt7st",
+							"Type": "NodeList",
+							"ListData": {
+								"BulletChar": 45,
+								"Padding": 2,
+								"MarkerOffset": 2,
+								"Marker": "LQ==",
+								"Num": -1
+							},
+							"Properties": {
+								"id": "20230508142997-bnxt7st",
+								"updated": "20230508142997"
+							},
+							"Children": [
+								{
+									"ID": "20230508142998-7z7jtb1",
+									"Type": "NodeListItem",
+									"Data": "-",
+									"ListData": {
+										"BulletChar": 45,
+										"Padding": 2,
+										"MarkerOffset": 2,
+										"Marker": "LQ==",
+										"Num": -1
+									},
+									"Properties": {
+										"id": "20230508142998-7z7jtb1",
+										"updated": "20230508142998"
+									},
+									"Children": [
+										{
+											"ID": "20230508142999-4sbwz2b",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20230508142999-4sbwz2b",
+												"updated": "20230508142999"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "线性排序，贴图素材好处理，没有空间浪费",
+													"Properties": {
+														"id": ""
+													}
+												}
+											]
+										},
+										{
+											"ID": "20230508143000-ogsn16h",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20230508143000-ogsn16h",
+												"updated": "20230508143000"
+											},
+											"Children": [
+												{
+													"Type": "NodeImage",
+													"Properties": {
+														"id": ""
+													},
+													"Children": [
+														{
+															"Type": "NodeBang",
+															"Data": "!",
+															"Properties": {
+																"id": ""
+															}
+														},
+														{
+															"Type": "NodeOpenBracket",
+															"Data": "[",
+															"Properties": {
+																"id": ""
+															}
+														},
+														{
+															"Type": "NodeLinkText",
+															"Data": "Cubemap_Line.png",
+															"Properties": {
+																"id": ""
+															}
+														},
+														{
+															"Type": "NodeCloseBracket",
+															"Data": "]",
+															"Properties": {
+																"id": ""
+															}
+														},
+														{
+															"Type": "NodeOpenParen",
+															"Data": "(",
+															"Properties": {
+																"id": ""
+															}
+														},
+														{
+															"Type": "NodeLinkDest",
+															"Data": "assets/Cubemap_Line-20230508143213-qcuf3qp.png",
+															"Properties": {
+																"id": ""
+															}
+														},
+														{
+															"Type": "NodeCloseParen",
+															"Data": ")",
+															"Properties": {
+																"id": ""
+															}
+														}
+													]
+												}
+											]
+										}
+									]
+								},
+								{
+									"ID": "20230508143001-049wd38",
+									"Type": "NodeListItem",
+									"Data": "-",
+									"ListData": {
+										"Tight": true,
+										"BulletChar": 45,
+										"Padding": 2,
+										"MarkerOffset": 2,
+										"Marker": "LQ==",
+										"Num": -1
+									},
+									"Properties": {
+										"id": "20230508143001-049wd38",
+										"updated": "20230508143001"
+									},
+									"Children": [
+										{
+											"ID": "20230508143002-ct68828",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20230508143002-ct68828",
+												"updated": "20230508143002"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "十字排序（正常CubeMap的排序方式）,空间浪费严重",
+													"Properties": {
+														"id": ""
+													}
+												}
+											]
+										},
+										{
+											"ID": "20230508143003-avkejam",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20230508143003-avkejam",
+												"updated": "20230508143003"
+											},
+											"Children": [
+												{
+													"Type": "NodeImage",
+													"Properties": {
+														"id": ""
+													},
+													"Children": [
+														{
+															"Type": "NodeBang",
+															"Data": "!",
+															"Properties": {
+																"id": ""
+															}
+														},
+														{
+															"Type": "NodeOpenBracket",
+															"Data": "[",
+															"Properties": {
+																"id": ""
+															}
+														},
+														{
+															"Type": "NodeLinkText",
+															"Data": "Cubemap_HV.png",
+															"Properties": {
+																"id": ""
+															}
+														},
+														{
+															"Type": "NodeCloseBracket",
+															"Data": "]",
+															"Properties": {
+																"id": ""
+															}
+														},
+														{
+															"Type": "NodeOpenParen",
+															"Data": "(",
+															"Properties": {
+																"id": ""
+															}
+														},
+														{
+															"Type": "NodeLinkDest",
+															"Data": "assets/Cubemap_HV-20230508143213-1zgph9f.png",
+															"Properties": {
+																"id": ""
+															}
+														},
+														{
+															"Type": "NodeCloseParen",
+															"Data": ")",
+															"Properties": {
+																"id": ""
+															}
+														}
+													]
+												}
+											]
+										}
+									]
+								},
+								{
+									"ID": "20230508143004-hodrvqz",
+									"Type": "NodeListItem",
+									"Data": "-",
+									"ListData": {
+										"Tight": true,
+										"BulletChar": 45,
+										"Padding": 2,
+										"MarkerOffset": 2,
+										"Marker": "LQ==",
+										"Num": -1
+									},
+									"Properties": {
+										"id": "20230508143004-hodrvqz",
+										"updated": "20230508143004"
+									},
+									"Children": [
+										{
+											"ID": "20230508143005-x8gid9x",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20230508143005-x8gid9x",
+												"updated": "20230508143005"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "示例",
+													"Properties": {
+														"id": ""
+													}
+												}
+											]
+										},
+										{
+											"ID": "20230508143006-jjs2tvh",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20230508143006-jjs2tvh",
+												"updated": "20230508143006"
+											},
+											"Children": [
+												{
+													"Type": "NodeImage",
+													"Properties": {
+														"id": ""
+													},
+													"Children": [
+														{
+															"Type": "NodeBang",
+															"Data": "!",
+															"Properties": {
+																"id": ""
+															}
+														},
+														{
+															"Type": "NodeOpenBracket",
+															"Data": "[",
+															"Properties": {
+																"id": ""
+															}
+														},
+														{
+															"Type": "NodeLinkText",
+															"Data": "Cube示例.gif",
+															"Properties": {
+																"id": ""
+															}
+														},
+														{
+															"Type": "NodeCloseBracket",
+															"Data": "]",
+															"Properties": {
+																"id": ""
+															}
+														},
+														{
+															"Type": "NodeOpenParen",
+															"Data": "(",
+															"Properties": {
+																"id": ""
+															}
+														},
+														{
+															"Type": "NodeLinkDest",
+															"Data": "assets/Cube%E7%A4%BA%E4%BE%8B-20230508143213-zlz9oiv.gif",
+															"Properties": {
+																"id": ""
+															}
+														},
+														{
+															"Type": "NodeCloseParen",
+															"Data": ")",
+															"Properties": {
+																"id": ""
+															}
+														}
+													]
+												}
+											]
+										}
+									]
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20230508143007-wf5tj1f",
+					"Type": "NodeListItem",
+					"Data": "-",
+					"ListData": {
+						"Tight": true,
+						"BulletChar": 45,
+						"Padding": 2,
+						"Marker": "LQ==",
+						"Num": -1
+					},
+					"Properties": {
+						"id": "20230508143007-wf5tj1f",
+						"updated": "20230508143007"
+					},
+					"Children": [
+						{
+							"ID": "20230508143008-ne375ov",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20230508143008-ne375ov",
+								"updated": "20230508143008"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "**",
+									"Properties": {
+										"id": ""
+									}
+								},
+								{
+									"Type": "NodeTextMark",
+									"Properties": {
+										"id": ""
+									},
+									"TextMarkType": "strong",
+									"TextMarkTextContent": "CubeMap "
+								},
+								{
+									"Type": "NodeTextMark",
+									"Properties": {
+										"id": ""
+									},
+									"TextMarkType": "strong code",
+									"TextMarkTextContent": "转换"
+								},
+								{
+									"Type": "NodeTextMark",
+									"Properties": {
+										"id": ""
+									},
+									"TextMarkType": "strong",
+									"TextMarkTextContent": " 2D 纹理"
+								}
+							]
+						},
+						{
+							"ID": "20230508143009-irso5tp",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20230508143009-irso5tp",
+								"updated": "20230508143009"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "1，创建一个box，将五个面的贴图赋上去。",
+									"Properties": {
+										"id": ""
+									}
+								}
+							]
+						},
+						{
+							"ID": "20230508143010-ad1m7jo",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20230508143010-ad1m7jo",
+								"updated": "20230508143010"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "2，对box远面缩小并将整个box压平到同一平面。",
+									"Properties": {
+										"id": ""
+									}
+								}
+							]
+						},
+						{
+							"ID": "20230508143011-9zdsit3",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20230508143011-9zdsit3",
+								"updated": "20230508143011"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "3，将压平结果烘焙为贴图。",
+									"Properties": {
+										"id": ""
+									}
+								}
+							]
+						},
+						{
+							"ID": "20230508143012-pzrlyrz",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20230508143012-pzrlyrz",
+								"updated": "20230508143012"
+							},
+							"Children": [
+								{
+									"Type": "NodeImage",
+									"Properties": {
+										"id": ""
+									},
+									"Children": [
+										{
+											"Type": "NodeBang",
+											"Data": "!",
+											"Properties": {
+												"id": ""
+											}
+										},
+										{
+											"Type": "NodeOpenBracket",
+											"Data": "[",
+											"Properties": {
+												"id": ""
+											}
+										},
+										{
+											"Type": "NodeLinkText",
+											"Data": "Cube2D.png",
+											"Properties": {
+												"id": ""
+											}
+										},
+										{
+											"Type": "NodeCloseBracket",
+											"Data": "]",
+											"Properties": {
+												"id": ""
+											}
+										},
+										{
+											"Type": "NodeOpenParen",
+											"Data": "(",
+											"Properties": {
+												"id": ""
+											}
+										},
+										{
+											"Type": "NodeLinkDest",
+											"Data": "assets/Cube2D-20230508143213-va5wik4.png",
+											"Properties": {
+												"id": ""
+											}
+										},
+										{
+											"Type": "NodeCloseParen",
+											"Data": ")",
+											"Properties": {
+												"id": ""
+											}
+										}
+									]
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20230508143013-jeejn9y",
+			"Type": "NodeHeading",
+			"HeadingLevel": 3,
+			"Properties": {
+				"id": "20230508143013-jeejn9y",
+				"updated": "20230508143013"
+			},
+			"Children": [
+				{
+					"Type": "NodeHeadingC8hMarker",
+					"Data": "### ",
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
+					"Type": "NodeText",
+					"Data": "核心代码及ASE转换",
+					"Properties": {
+						"id": ""
+					}
+				}
+			]
+		},
+		{
+			"ID": "20230508143014-a76gsgy",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20230508143014-a76gsgy",
+				"updated": "20230508143014"
+			},
+			"Children": [
+				{
+					"Type": "NodeTextMark",
+					"Properties": {
+						"id": ""
+					},
+					"TextMarkType": "strong code",
+					"TextMarkTextContent": "通过核心代码，经ASE进行转换后，可在标准管线与可编程管线中切换"
+				}
+			]
+		},
+		{
+			"ID": "20230508143015-rcnwq0h",
+			"Type": "NodeList",
+			"ListData": {
+				"BulletChar": 45,
+				"Padding": 2,
+				"Marker": "LQ==",
+				"Num": -1
+			},
+			"Properties": {
+				"id": "20230508143015-rcnwq0h",
+				"updated": "20230508160110"
+			},
+			"Children": [
+				{
+					"ID": "20230508143016-6rb8vez",
+					"Type": "NodeListItem",
+					"Data": "-",
+					"ListData": {
+						"BulletChar": 45,
+						"Padding": 2,
+						"Marker": "LQ==",
+						"Num": -1
+					},
+					"Properties": {
+						"id": "20230508143016-6rb8vez",
+						"updated": "20230508143016"
+					},
+					"Children": [
+						{
+							"ID": "20230508143017-90unyhf",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20230508143017-90unyhf",
+								"updated": "20230508143017"
+							},
+							"Children": [
+								{
+									"Type": "NodeTextMark",
+									"Properties": {
+										"id": ""
+									},
+									"TextMarkType": "strong",
+									"TextMarkTextContent": "视角空间下的空间计算"
+								}
+							]
+						},
+						{
+							"ID": "20230508143018-tay00b8",
+							"Type": "NodeList",
+							"ListData": {
+								"BulletChar": 45,
+								"Padding": 2,
+								"MarkerOffset": 2,
+								"Marker": "LQ==",
+								"Num": -1
+							},
+							"Properties": {
+								"id": "20230508143018-tay00b8",
+								"updated": "20230508143018"
+							},
+							"Children": [
+								{
+									"ID": "20230508143019-ygqhdei",
+									"Type": "NodeListItem",
+									"Data": "-",
+									"ListData": {
+										"BulletChar": 45,
+										"Padding": 2,
+										"MarkerOffset": 2,
+										"Marker": "LQ==",
+										"Num": -1
+									},
+									"Properties": {
+										"id": "20230508143019-ygqhdei",
+										"updated": "20230508143019"
+									},
+									"Children": [
+										{
+											"ID": "20230508143020-ri1zhht",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20230508143020-ri1zhht",
+												"updated": "20230508143020"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "代码",
+													"Properties": {
+														"id": ""
+													}
+												}
+											]
+										},
+										{
+											"ID": "20230508143021-s1fcfxn",
+											"Type": "NodeCodeBlock",
+											"IsFencedCodeBlock": true,
+											"CodeBlockFenceChar": 96,
+											"CodeBlockFenceLen": 3,
+											"CodeBlockFenceOffset": 2,
+											"CodeBlockOpenFence": "YGBg",
+											"CodeBlockInfo": "Z2xzbA==",
+											"CodeBlockCloseFence": "YGBg",
+											"Properties": {
+												"id": "20230508143021-s1fcfxn",
+												"updated": "20230508143021"
+											},
+											"Children": [
+												{
+													"Type": "NodeCodeBlockFenceOpenMarker",
+													"Data": "```",
+													"CodeBlockFenceLen": 3,
+													"Properties": {
+														"id": ""
+													}
+												},
+												{
+													"Type": "NodeCodeBlockFenceInfoMarker",
+													"CodeBlockInfo": "Z2xzbA==",
+													"Properties": {
+														"id": ""
+													}
+												},
+												{
+													"Type": "NodeCodeBlockCode",
+													"Data": "//获取物体空间摄像机坐标\n float4 objCam = mul(unity_WorldToObject, float4(_WorldSpaceCameraPos, 1.0));\n\n //以摄像机为原点的物体坐标（顶点朝向）\n float3 cammearDir = v.vertex.xyz - objCam.xyz;\n\n //切线朝向 = 切线W*物体修改后世界空间W\n float tangentSign = v.tangent.w * unity_WorldTransformParams.w;\n\n //获得副切线 法线与切线的叉乘\n float3 bitangent = cross(v.normal.xyz, v.tangent.xyz) * tangentSign;\n\n//视角方向（X：视角与切线点乘，Y：视角与副切线点乘，Z：视角与法线点乘）\nfloat3 FviewDir= float3(\n dot(cammearDir, v.tangent.xyz),\n dot(cammearDir, bitangent),\n dot(cammearDir, v.normal)\n  );\nreturn FviewDir;\n",
+													"Properties": {
+														"id": ""
+													}
+												},
+												{
+													"Type": "NodeCodeBlockFenceCloseMarker",
+													"Data": "```",
+													"CodeBlockFenceLen": 3,
+													"Properties": {
+														"id": ""
+													}
+												}
+											]
+										}
+									]
+								},
+								{
+									"ID": "20230508143022-gol8pds",
+									"Type": "NodeListItem",
+									"Data": "-",
+									"ListData": {
+										"Tight": true,
+										"BulletChar": 45,
+										"Padding": 2,
+										"MarkerOffset": 2,
+										"Marker": "LQ==",
+										"Num": -1
+									},
+									"Properties": {
+										"id": "20230508143022-gol8pds",
+										"updated": "20230508143022"
+									},
+									"Children": [
+										{
+											"ID": "20230508143023-itzj5hh",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20230508143023-itzj5hh",
+												"updated": "20230508143023"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "ASE转换(纯节点方式)-节点复杂",
+													"Properties": {
+														"id": ""
+													}
+												}
+											]
+										},
+										{
+											"ID": "20230508143024-q33qau6",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20230508143024-q33qau6",
+												"updated": "20230508143024"
+											},
+											"Children": [
+												{
+													"Type": "NodeImage",
+													"Properties": {
+														"id": ""
+													},
+													"Children": [
+														{
+															"Type": "NodeBang",
+															"Data": "!",
+															"Properties": {
+																"id": ""
+															}
+														},
+														{
+															"Type": "NodeOpenBracket",
+															"Data": "[",
+															"Properties": {
+																"id": ""
+															}
+														},
+														{
+															"Type": "NodeLinkText",
+															"Data": "Fview.png",
+															"Properties": {
+																"id": ""
+															}
+														},
+														{
+															"Type": "NodeCloseBracket",
+															"Data": "]",
+															"Properties": {
+																"id": ""
+															}
+														},
+														{
+															"Type": "NodeOpenParen",
+															"Data": "(",
+															"Properties": {
+																"id": ""
+															}
+														},
+														{
+															"Type": "NodeLinkDest",
+															"Data": "assets/Fview-20230508143213-kw4vqw1.png",
+															"Properties": {
+																"id": ""
+															}
+														},
+														{
+															"Type": "NodeCloseParen",
+															"Data": ")",
+															"Properties": {
+																"id": ""
+															}
+														}
+													]
+												}
+											]
+										}
+									]
+								},
+								{
+									"ID": "20230508143025-mffbnb7",
+									"Type": "NodeListItem",
+									"Data": "-",
+									"ListData": {
+										"Tight": true,
+										"BulletChar": 45,
+										"Padding": 2,
+										"MarkerOffset": 2,
+										"Marker": "LQ==",
+										"Num": -1
+									},
+									"Properties": {
+										"id": "20230508143025-mffbnb7",
+										"updated": "20230508143025"
+									},
+									"Children": [
+										{
+											"ID": "20230508143026-ooh2i2f",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20230508143026-ooh2i2f",
+												"updated": "20230508143026"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "ASE转换(CustomExpression模式)→简洁",
+													"Properties": {
+														"id": ""
+													}
+												}
+											]
+										},
+										{
+											"ID": "20230508143027-4hnvjsz",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20230508143027-4hnvjsz",
+												"updated": "20230508143027"
+											},
+											"Children": [
+												{
+													"Type": "NodeImage",
+													"Properties": {
+														"id": ""
+													},
+													"Children": [
+														{
+															"Type": "NodeBang",
+															"Data": "!",
+															"Properties": {
+																"id": ""
+															}
+														},
+														{
+															"Type": "NodeOpenBracket",
+															"Data": "[",
+															"Properties": {
+																"id": ""
+															}
+														},
+														{
+															"Type": "NodeLinkText",
+															"Data": "FunViewDir.png",
+															"Properties": {
+																"id": ""
+															}
+														},
+														{
+															"Type": "NodeCloseBracket",
+															"Data": "]",
+															"Properties": {
+																"id": ""
+															}
+														},
+														{
+															"Type": "NodeOpenParen",
+															"Data": "(",
+															"Properties": {
+																"id": ""
+															}
+														},
+														{
+															"Type": "NodeLinkDest",
+															"Data": "assets/FunViewDir-20230508143213-rnngcu1.png",
+															"Properties": {
+																"id": ""
+															}
+														},
+														{
+															"Type": "NodeCloseParen",
+															"Data": ")",
+															"Properties": {
+																"id": ""
+															}
+														}
+													]
+												}
+											]
+										}
+									]
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20230508143028-ch55oue",
+					"Type": "NodeListItem",
+					"Data": "-",
+					"ListData": {
+						"Tight": true,
+						"BulletChar": 45,
+						"Padding": 2,
+						"Marker": "LQ==",
+						"Num": -1
+					},
+					"Properties": {
+						"id": "20230508143028-ch55oue",
+						"updated": "20230508160110"
+					},
+					"Children": [
+						{
+							"ID": "20230508143029-iszi9vz",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20230508143029-iszi9vz",
+								"updated": "20230508143029"
+							},
+							"Children": [
+								{
+									"Type": "NodeTextMark",
+									"Properties": {
+										"id": ""
+									},
+									"TextMarkType": "strong",
+									"TextMarkTextContent": "随机噪波计算"
+								}
+							]
+						},
+						{
+							"ID": "20230508143030-gllff0e",
+							"Type": "NodeList",
+							"ListData": {
+								"BulletChar": 45,
+								"Padding": 2,
+								"MarkerOffset": 2,
+								"Marker": "LQ==",
+								"Num": -1
+							},
+							"Properties": {
+								"id": "20230508143030-gllff0e",
+								"updated": "20230508160110"
+							},
+							"Children": [
+								{
+									"ID": "20230508143031-e23k4h8",
+									"Type": "NodeListItem",
+									"Data": "-",
+									"ListData": {
+										"BulletChar": 45,
+										"Padding": 2,
+										"MarkerOffset": 2,
+										"Marker": "LQ==",
+										"Num": -1
+									},
+									"Properties": {
+										"id": "20230508143031-e23k4h8",
+										"updated": "20230508143031"
+									},
+									"Children": [
+										{
+											"ID": "20230508143032-g6d55t3",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20230508143032-g6d55t3",
+												"updated": "20230508143032"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "代码",
+													"Properties": {
+														"id": ""
+													}
+												}
+											]
+										},
+										{
+											"ID": "20230508143033-mumc82q",
+											"Type": "NodeCodeBlock",
+											"IsFencedCodeBlock": true,
+											"CodeBlockFenceChar": 96,
+											"CodeBlockFenceLen": 3,
+											"CodeBlockFenceOffset": 2,
+											"CodeBlockOpenFence": "YGBg",
+											"CodeBlockInfo": "Z2xzbA==",
+											"CodeBlockCloseFence": "YGBg",
+											"Properties": {
+												"id": "20230508143033-mumc82q",
+												"updated": "20230508143033"
+											},
+											"Children": [
+												{
+													"Type": "NodeCodeBlockFenceOpenMarker",
+													"Data": "```",
+													"CodeBlockFenceLen": 3,
+													"Properties": {
+														"id": ""
+													}
+												},
+												{
+													"Type": "NodeCodeBlockFenceInfoMarker",
+													"CodeBlockInfo": "Z2xzbA==",
+													"Properties": {
+														"id": ""
+													}
+												},
+												{
+													"Type": "NodeCodeBlockCode",
+													"Data": "float2 flooredUV = floor(uv);\nfloat co = flooredUV.x+ flooredUV.y * (flooredUV.x + 1);\nfloat3 r =frac(sin(co * float3(12.9898,78.233,43.2316)) * LightSeed);\nreturn r.z;\n",
+													"Properties": {
+														"id": ""
+													}
+												},
+												{
+													"Type": "NodeCodeBlockFenceCloseMarker",
+													"Data": "```",
+													"CodeBlockFenceLen": 3,
+													"Properties": {
+														"id": ""
+													}
+												}
+											]
+										}
+									]
+								},
+								{
+									"ID": "20230508143034-0lbw8wp",
+									"Type": "NodeListItem",
+									"Data": "-",
+									"ListData": {
+										"Tight": true,
+										"BulletChar": 45,
+										"Padding": 2,
+										"MarkerOffset": 2,
+										"Marker": "LQ==",
+										"Num": -1
+									},
+									"Properties": {
+										"id": "20230508143034-0lbw8wp",
+										"updated": "20230508160110"
+									},
+									"Children": [
+										{
+											"ID": "20230508143035-xmc432v",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20230508143035-xmc432v",
+												"updated": "20230508143035"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "ASE转换（两种方式）",
+													"Properties": {
+														"id": ""
+													}
+												}
+											]
+										},
+										{
+											"ID": "20230508143036-lzplx2g",
+											"Type": "NodeList",
+											"ListData": {
+												"Typ": 1,
+												"Start": 1,
+												"Delimiter": 46,
+												"Padding": 3,
+												"MarkerOffset": 2,
+												"Marker": "MQ==",
+												"Num": 1
+											},
+											"Properties": {
+												"id": "20230508143036-lzplx2g",
+												"updated": "20230508160110"
+											},
+											"Children": [
+												{
+													"ID": "20230508143037-dna8k1d",
+													"Type": "NodeListItem",
+													"Data": "1",
+													"ListData": {
+														"Typ": 1,
+														"Start": 1,
+														"Delimiter": 46,
+														"Padding": 3,
+														"MarkerOffset": 2,
+														"Marker": "MQ==",
+														"Num": 1
+													},
+													"Properties": {
+														"id": "20230508143037-dna8k1d",
+														"updated": "20230508160110"
+													},
+													"Children": [
+														{
+															"ID": "20230508143038-jq2tuds",
+															"Type": "NodeParagraph",
+															"Properties": {
+																"id": "20230508143038-jq2tuds",
+																"updated": "20230508143038"
+															},
+															"Children": [
+																{
+																	"Type": "NodeText",
+																	"Data": "ASE转换(纯节点方式)-节点复杂",
+																	"Properties": {
+																		"id": ""
+																	}
+																}
+															]
+														},
+														{
+															"ID": "20230508143039-6t13cw2",
+															"Type": "NodeParagraph",
+															"Properties": {
+																"id": "20230508143039-6t13cw2",
+																"updated": "20230508160110"
+															},
+															"Children": [
+																{
+																	"Type": "NodeText",
+																	"Data": "​"
+																},
+																{
+																	"Type": "NodeImage",
+																	"Data": "span",
+																	"Children": [
+																		{
+																			"Type": "NodeBang"
+																		},
+																		{
+																			"Type": "NodeOpenBracket"
+																		},
+																		{
+																			"Type": "NodeLinkText",
+																			"Data": "RandomLight.png"
+																		},
+																		{
+																			"Type": "NodeCloseBracket"
+																		},
+																		{
+																			"Type": "NodeOpenParen"
+																		},
+																		{
+																			"Type": "NodeLinkDest",
+																			"Data": "assets/RandomLight-20230508143213-mkm4req.png"
+																		},
+																		{
+																			"Type": "NodeCloseParen"
+																		}
+																	]
+																},
+																{
+																	"Type": "NodeText",
+																	"Data": "​"
+																}
+															]
+														}
+													]
+												},
+												{
+													"ID": "20230508143040-on4ozcb",
+													"Type": "NodeListItem",
+													"Data": "2",
+													"ListData": {
+														"Typ": 1,
+														"Tight": true,
+														"Start": 2,
+														"Delimiter": 46,
+														"Padding": 3,
+														"MarkerOffset": 2,
+														"Marker": "Mg==",
+														"Num": 2
+													},
+													"Properties": {
+														"id": "20230508143040-on4ozcb",
+														"updated": "20230508143040"
+													},
+													"Children": [
+														{
+															"ID": "20230508143041-6vn4i7u",
+															"Type": "NodeParagraph",
+															"Properties": {
+																"id": "20230508143041-6vn4i7u",
+																"updated": "20230508143041"
+															},
+															"Children": [
+																{
+																	"Type": "NodeText",
+																	"Data": "ASE转换(CustomExpression模式)-简洁",
+																	"Properties": {
+																		"id": ""
+																	}
+																}
+															]
+														},
+														{
+															"ID": "20230508143042-6avr4f1",
+															"Type": "NodeParagraph",
+															"Properties": {
+																"id": "20230508143042-6avr4f1",
+																"updated": "20230508143042"
+															},
+															"Children": [
+																{
+																	"Type": "NodeImage",
+																	"Properties": {
+																		"id": ""
+																	},
+																	"Children": [
+																		{
+																			"Type": "NodeBang",
+																			"Data": "!",
+																			"Properties": {
+																				"id": ""
+																			}
+																		},
+																		{
+																			"Type": "NodeOpenBracket",
+																			"Data": "[",
+																			"Properties": {
+																				"id": ""
+																			}
+																		},
+																		{
+																			"Type": "NodeLinkText",
+																			"Data": "RandomLight_CustomExpression.png",
+																			"Properties": {
+																				"id": ""
+																			}
+																		},
+																		{
+																			"Type": "NodeCloseBracket",
+																			"Data": "]",
+																			"Properties": {
+																				"id": ""
+																			}
+																		},
+																		{
+																			"Type": "NodeOpenParen",
+																			"Data": "(",
+																			"Properties": {
+																				"id": ""
+																			}
+																		},
+																		{
+																			"Type": "NodeLinkDest",
+																			"Data": "assets/RandomLight_CustomExpression-20230508143213-yjl1v6l.png",
+																			"Properties": {
+																				"id": ""
+																			}
+																		},
+																		{
+																			"Type": "NodeCloseParen",
+																			"Data": ")",
+																			"Properties": {
+																				"id": ""
+																			}
+																		}
+																	]
+																}
+															]
+														}
+													]
+												}
+											]
+										}
+									]
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20230508143043-vcr20pi",
+					"Type": "NodeListItem",
+					"Data": "-",
+					"ListData": {
+						"Tight": true,
+						"BulletChar": 45,
+						"Padding": 2,
+						"Marker": "LQ==",
+						"Num": -1
+					},
+					"Properties": {
+						"id": "20230508143043-vcr20pi",
+						"updated": "20230508143043"
+					},
+					"Children": [
+						{
+							"ID": "20230508143044-84214hn",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20230508143044-84214hn",
+								"updated": "20230508143044"
+							},
+							"Children": [
+								{
+									"Type": "NodeTextMark",
+									"Properties": {
+										"id": ""
+									},
+									"TextMarkType": "strong strong",
+									"TextMarkTextContent": "2D 纹理映射的采样代码"
+								}
+							]
+						},
+						{
+							"ID": "20230508143045-71aajrl",
+							"Type": "NodeList",
+							"ListData": {
+								"BulletChar": 45,
+								"Padding": 2,
+								"MarkerOffset": 2,
+								"Marker": "LQ==",
+								"Num": -1
+							},
+							"Properties": {
+								"id": "20230508143045-71aajrl",
+								"updated": "20230508143045"
+							},
+							"Children": [
+								{
+									"ID": "20230508143046-ula35c2",
+									"Type": "NodeListItem",
+									"Data": "-",
+									"ListData": {
+										"BulletChar": 45,
+										"Padding": 2,
+										"MarkerOffset": 2,
+										"Marker": "LQ==",
+										"Num": -1
+									},
+									"Properties": {
+										"id": "20230508143046-ula35c2",
+										"updated": "20230508143046"
+									},
+									"Children": [
+										{
+											"ID": "20230508143047-e3goyzq",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20230508143047-e3goyzq",
+												"updated": "20230508143047"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "代码",
+													"Properties": {
+														"id": ""
+													}
+												}
+											]
+										},
+										{
+											"ID": "20230508143048-wryzd5b",
+											"Type": "NodeCodeBlock",
+											"IsFencedCodeBlock": true,
+											"CodeBlockFenceChar": 96,
+											"CodeBlockFenceLen": 3,
+											"CodeBlockFenceOffset": 2,
+											"CodeBlockOpenFence": "YGBg",
+											"CodeBlockInfo": "Z2xzbA==",
+											"CodeBlockCloseFence": "YGBg",
+											"Properties": {
+												"id": "20230508143048-wryzd5b",
+												"updated": "20230508143048"
+											},
+											"Children": [
+												{
+													"Type": "NodeCodeBlockFenceOpenMarker",
+													"Data": "```",
+													"CodeBlockFenceLen": 3,
+													"Properties": {
+														"id": ""
+													}
+												},
+												{
+													"Type": "NodeCodeBlockFenceInfoMarker",
+													"CodeBlockInfo": "Z2xzbA==",
+													"Properties": {
+														"id": ""
+													}
+												},
+												{
+													"Type": "NodeCodeBlockCode",
+													"Data": "\t\t\t\t\t\t\t\t\t\t// 房间的uv\n                    float2 roomUV = frac(uv);\n                    float2 roomIndexUV = floor(uv);\n\n                    // 多纹理时的随机房间样式 \n\n                  float co = roomIndexUV.x + roomIndexUV.y * (roomIndexUV.x + 1);\n                    float2 n = floor(frac(sin(co * float2(12.9898, 78.233)) * 43758.5453) * _Rooms.xy);\n                    //float2 n = floor(_Rooms.xy);\n                    roomIndexUV += n;\n\n                    float depthScale = 1.0 / (1.0 - RoomDepth) - 1.0;\n\n                    //转换视角\n                    float3 pos = float3(roomUV * 2 - 1, -1);\n\n                    FviewDir.z *= -depthScale;\n\n                    float3 id = 1.0 /FviewDir;\n                    float3 k = abs(id) - pos * id;\n                    float kMin = min(min(k.x, k.y), k.z);\n                    pos += kMin *FviewDir;\n\n                    float interp = pos.z * 0.5 + 0.5;\n\n\n                    float realZ = saturate(interp) / depthScale + 1;\n                    interp = 1.0 - (1.0 / realZ);\n                    interp *= depthScale + 1.0;\n\n                    float2 interiorUV = pos.xy * lerp(1.0, RoomDepth, interp);\n\n                    interiorUV = interiorUV * 0.5 + 0.5;\n//返回值为采样UV\nreturn (interiorUV+roomIndexUV)/_Rooms.xy;\n",
+													"Properties": {
+														"id": ""
+													}
+												},
+												{
+													"Type": "NodeCodeBlockFenceCloseMarker",
+													"Data": "```",
+													"CodeBlockFenceLen": 3,
+													"Properties": {
+														"id": ""
+													}
+												}
+											]
+										}
+									]
+								},
+								{
+									"ID": "20230508143049-1y7qf1c",
+									"Type": "NodeListItem",
+									"Data": "-",
+									"ListData": {
+										"Tight": true,
+										"BulletChar": 45,
+										"Padding": 2,
+										"MarkerOffset": 2,
+										"Marker": "LQ==",
+										"Num": -1
+									},
+									"Properties": {
+										"id": "20230508143049-1y7qf1c",
+										"updated": "20230508143049"
+									},
+									"Children": [
+										{
+											"ID": "20230508143050-h8mlnkj",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20230508143050-h8mlnkj",
+												"updated": "20230508143050"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "ASE（CustomExpression模式）节点图示",
+													"Properties": {
+														"id": ""
+													}
+												}
+											]
+										},
+										{
+											"ID": "20230508143051-5we8b3k",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20230508143051-5we8b3k",
+												"updated": "20230508143051"
+											},
+											"Children": [
+												{
+													"Type": "NodeImage",
+													"Properties": {
+														"id": ""
+													},
+													"Children": [
+														{
+															"Type": "NodeBang",
+															"Data": "!",
+															"Properties": {
+																"id": ""
+															}
+														},
+														{
+															"Type": "NodeOpenBracket",
+															"Data": "[",
+															"Properties": {
+																"id": ""
+															}
+														},
+														{
+															"Type": "NodeLinkText",
+															"Data": "Frag2DMap.png",
+															"Properties": {
+																"id": ""
+															}
+														},
+														{
+															"Type": "NodeCloseBracket",
+															"Data": "]",
+															"Properties": {
+																"id": ""
+															}
+														},
+														{
+															"Type": "NodeOpenParen",
+															"Data": "(",
+															"Properties": {
+																"id": ""
+															}
+														},
+														{
+															"Type": "NodeLinkDest",
+															"Data": "assets/Frag2DMap-20230508143213-twefnh0.png",
+															"Properties": {
+																"id": ""
+															}
+														},
+														{
+															"Type": "NodeCloseParen",
+															"Data": ")",
+															"Properties": {
+																"id": ""
+															}
+														}
+													]
+												}
+											]
+										}
+									]
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20230508143052-3ppzxaj",
+					"Type": "NodeListItem",
+					"Data": "-",
+					"ListData": {
+						"Tight": true,
+						"BulletChar": 45,
+						"Padding": 2,
+						"Marker": "LQ==",
+						"Num": -1
+					},
+					"Properties": {
+						"id": "20230508143052-3ppzxaj",
+						"updated": "20230508154553"
+					},
+					"Children": [
+						{
+							"ID": "20230508143053-prm3j02",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20230508143053-prm3j02",
+								"updated": "20230508143053"
+							},
+							"Children": [
+								{
+									"Type": "NodeTextMark",
+									"Properties": {
+										"id": ""
+									},
+									"TextMarkType": "strong strong",
+									"TextMarkTextContent": "立方体（CubeMap）映射的采样代码"
+								}
+							]
+						},
+						{
+							"ID": "20230508143054-uofsdtj",
+							"Type": "NodeList",
+							"ListData": {
+								"BulletChar": 45,
+								"Padding": 2,
+								"MarkerOffset": 2,
+								"Marker": "LQ==",
+								"Num": -1
+							},
+							"Properties": {
+								"id": "20230508143054-uofsdtj",
+								"updated": "20230508154553"
+							},
+							"Children": [
+								{
+									"ID": "20230508143055-yli3vru",
+									"Type": "NodeListItem",
+									"Data": "-",
+									"ListData": {
+										"BulletChar": 45,
+										"Padding": 2,
+										"MarkerOffset": 2,
+										"Marker": "LQ==",
+										"Num": -1
+									},
+									"Properties": {
+										"id": "20230508143055-yli3vru",
+										"updated": "20230508143055"
+									},
+									"Children": [
+										{
+											"ID": "20230508143056-9uf914h",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20230508143056-9uf914h",
+												"updated": "20230508143056"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "代码",
+													"Properties": {
+														"id": ""
+													}
+												}
+											]
+										},
+										{
+											"ID": "20230508143057-t472hgg",
+											"Type": "NodeCodeBlock",
+											"IsFencedCodeBlock": true,
+											"CodeBlockFenceChar": 96,
+											"CodeBlockFenceLen": 3,
+											"CodeBlockFenceOffset": 2,
+											"CodeBlockOpenFence": "YGBg",
+											"CodeBlockInfo": "Z2xzbA==",
+											"CodeBlockCloseFence": "YGBg",
+											"Properties": {
+												"id": "20230508143057-t472hgg",
+												"updated": "20230508143057"
+											},
+											"Children": [
+												{
+													"Type": "NodeCodeBlockFenceOpenMarker",
+													"Data": "```",
+													"CodeBlockFenceLen": 3,
+													"Properties": {
+														"id": ""
+													}
+												},
+												{
+													"Type": "NodeCodeBlockFenceInfoMarker",
+													"CodeBlockInfo": "Z2xzbA==",
+													"Properties": {
+														"id": ""
+													}
+												},
+												{
+													"Type": "NodeCodeBlockCode",
+													"Data": "float depthScale = 1.0 / (1.0 - RoomDepth) - 1.0;\n               FviewDir.z *= depthScale;\n\n                // 房间的uv\n                float2 roomUV = frac(uv);\n\n                // 转换视角\n                float3 pos = float3(roomUV * 2.0 - 1.0, 1.0);\n                float3 id = 1.0 / FviewDir;\n                float3 k = abs(id) - pos * id;\n                float kMin = min(min(k.x, k.y), k.z);\n                pos += kMin *FviewDir;\n\n                // 随机翻转、旋转CubeMap\n                float2 flooredUV = floor(uv);\n                float co = flooredUV.x + 1.0 + flooredUV.y * (flooredUV.x + 1);\n\tfloat3 r =frac(sin(co * float3(12.9898,78.233,43.2316)) * 43758.5453);\n                float2 cubeflip = floor(r.xy * 2.0) * 2.0 - 1.0;\n                pos.xz *= cubeflip;\n                pos.xz = r.z \u003e 0.5 ? pos.xz : pos.zx;\n//返回值：CubeMap的UV\nreturn pos;\n",
+													"Properties": {
+														"id": ""
+													}
+												},
+												{
+													"Type": "NodeCodeBlockFenceCloseMarker",
+													"Data": "```",
+													"CodeBlockFenceLen": 3,
+													"Properties": {
+														"id": ""
+													}
+												}
+											]
+										}
+									]
+								},
+								{
+									"ID": "20230508143058-e6mi1ge",
+									"Type": "NodeListItem",
+									"Data": "-",
+									"ListData": {
+										"Tight": true,
+										"BulletChar": 45,
+										"Padding": 2,
+										"MarkerOffset": 2,
+										"Marker": "LQ==",
+										"Num": -1
+									},
+									"Properties": {
+										"id": "20230508143058-e6mi1ge",
+										"updated": "20230508154553"
+									},
+									"Children": [
+										{
+											"ID": "20230508143059-f04bpfl",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20230508143059-f04bpfl",
+												"updated": "20230508143059"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "ASE（CustomExpression模式）节点图示",
+													"Properties": {
+														"id": ""
+													}
+												}
+											]
+										},
+										{
+											"ID": "20230508143060-tsbpc18",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20230508143060-tsbpc18",
+												"updated": "20230508154553"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "​"
+												},
+												{
+													"Type": "NodeImage",
+													"Data": "span",
+													"Children": [
+														{
+															"Type": "NodeBang"
+														},
+														{
+															"Type": "NodeOpenBracket"
+														},
+														{
+															"Type": "NodeLinkText",
+															"Data": "FragCubeMap.png"
+														},
+														{
+															"Type": "NodeCloseBracket"
+														},
+														{
+															"Type": "NodeOpenParen"
+														},
+														{
+															"Type": "NodeLinkDest",
+															"Data": "assets/FragCubeMap-20230508143213-0mi1w4m.png"
+														},
+														{
+															"Type": "NodeCloseParen"
+														}
+													]
+												},
+												{
+													"Type": "NodeText",
+													"Data": "​"
+												}
+											]
+										}
+									]
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20230508143061-5448b9k",
+			"Type": "NodeHeading",
+			"HeadingLevel": 3,
+			"Properties": {
+				"id": "20230508143061-5448b9k",
+				"updated": "20230508143061"
+			},
+			"Children": [
+				{
+					"Type": "NodeHeadingC8hMarker",
+					"Data": "### ",
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
+					"Type": "NodeTextMark",
+					"Properties": {
+						"id": ""
+					},
+					"TextMarkType": "strong",
+					"TextMarkTextContent": "ASE节点图示"
+				}
+			]
+		},
+		{
+			"ID": "20230508143062-132yksj",
+			"Type": "NodeList",
+			"ListData": {
+				"BulletChar": 45,
+				"Padding": 2,
+				"Marker": "LQ==",
+				"Num": -1
+			},
+			"Properties": {
+				"id": "20230508143062-132yksj",
+				"updated": "20230508143062"
+			},
+			"Children": [
+				{
+					"ID": "20230508143063-w6frm04",
+					"Type": "NodeListItem",
+					"Data": "-",
+					"ListData": {
+						"BulletChar": 45,
+						"Padding": 2,
+						"Marker": "LQ==",
+						"Num": -1
+					},
+					"Properties": {
+						"id": "20230508143063-w6frm04",
+						"updated": "20230508143063"
+					},
+					"Children": [
+						{
+							"ID": "20230508143064-plfuwza",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20230508143064-plfuwza",
+								"updated": "20230508143064"
+							},
+							"Children": [
+								{
+									"Type": "NodeTextMark",
+									"Properties": {
+										"id": ""
+									},
+									"TextMarkType": "strong strong",
+									"TextMarkTextContent": "2D 纹理映射"
+								}
+							]
+						},
+						{
+							"ID": "20230508143065-06uz1ra",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20230508143065-06uz1ra",
+								"updated": "20230508143065"
+							},
+							"Children": [
+								{
+									"Type": "NodeImage",
+									"Properties": {
+										"id": ""
+									},
+									"Children": [
+										{
+											"Type": "NodeBang",
+											"Data": "!",
+											"Properties": {
+												"id": ""
+											}
+										},
+										{
+											"Type": "NodeOpenBracket",
+											"Data": "[",
+											"Properties": {
+												"id": ""
+											}
+										},
+										{
+											"Type": "NodeLinkText",
+											"Data": "2DNode.png",
+											"Properties": {
+												"id": ""
+											}
+										},
+										{
+											"Type": "NodeCloseBracket",
+											"Data": "]",
+											"Properties": {
+												"id": ""
+											}
+										},
+										{
+											"Type": "NodeOpenParen",
+											"Data": "(",
+											"Properties": {
+												"id": ""
+											}
+										},
+										{
+											"Type": "NodeLinkDest",
+											"Data": "assets/2DNode-20230508143213-tvit28d.png",
+											"Properties": {
+												"id": ""
+											}
+										},
+										{
+											"Type": "NodeCloseParen",
+											"Data": ")",
+											"Properties": {
+												"id": ""
+											}
+										}
+									]
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20230508143066-dk6vk3z",
+					"Type": "NodeListItem",
+					"Data": "-",
+					"ListData": {
+						"Tight": true,
+						"BulletChar": 45,
+						"Padding": 2,
+						"Marker": "LQ==",
+						"Num": -1
+					},
+					"Properties": {
+						"id": "20230508143066-dk6vk3z",
+						"updated": "20230508143066"
+					},
+					"Children": [
+						{
+							"ID": "20230508143067-qlhdmzs",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20230508143067-qlhdmzs",
+								"updated": "20230508143067"
+							},
+							"Children": [
+								{
+									"Type": "NodeTextMark",
+									"Properties": {
+										"id": ""
+									},
+									"TextMarkType": "strong strong",
+									"TextMarkTextContent": "立方体（CubeMap）映射"
+								}
+							]
+						},
+						{
+							"ID": "20230508143068-8xrkz2z",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20230508143068-8xrkz2z",
+								"updated": "20230508143068"
+							},
+							"Children": [
+								{
+									"Type": "NodeImage",
+									"Properties": {
+										"id": ""
+									},
+									"Children": [
+										{
+											"Type": "NodeBang",
+											"Data": "!",
+											"Properties": {
+												"id": ""
+											}
+										},
+										{
+											"Type": "NodeOpenBracket",
+											"Data": "[",
+											"Properties": {
+												"id": ""
+											}
+										},
+										{
+											"Type": "NodeLinkText",
+											"Data": "CubeNode.png",
+											"Properties": {
+												"id": ""
+											}
+										},
+										{
+											"Type": "NodeCloseBracket",
+											"Data": "]",
+											"Properties": {
+												"id": ""
+											}
+										},
+										{
+											"Type": "NodeOpenParen",
+											"Data": "(",
+											"Properties": {
+												"id": ""
+											}
+										},
+										{
+											"Type": "NodeLinkDest",
+											"Data": "assets/CubeNode-20230508143213-k1hb2yy.png",
+											"Properties": {
+												"id": ""
+											}
+										},
+										{
+											"Type": "NodeCloseParen",
+											"Data": ")",
+											"Properties": {
+												"id": ""
+											}
+										}
+									]
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20230508143069-lrejq3n",
+			"Type": "NodeHeading",
+			"HeadingLevel": 3,
+			"Properties": {
+				"id": "20230508143069-lrejq3n",
+				"updated": "20230508143069"
+			},
+			"Children": [
+				{
+					"Type": "NodeHeadingC8hMarker",
+					"Data": "### ",
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
+					"Type": "NodeTextMark",
+					"Properties": {
+						"id": ""
+					},
+					"TextMarkType": "strong",
+					"TextMarkTextContent": "扩展效果("
+				},
+				{
+					"Type": "NodeTextMark",
+					"Properties": {
+						"id": ""
+					},
+					"TextMarkType": "code",
+					"TextMarkTextContent": "内部嵌套图像"
+				},
+				{
+					"Type": "NodeTextMark",
+					"Properties": {
+						"id": ""
+					},
+					"TextMarkType": "strong",
+					"TextMarkTextContent": ")"
+				}
+			]
+		},
+		{
+			"ID": "20230508143070-s9sw9hj",
+			"Type": "NodeList",
+			"ListData": {
+				"BulletChar": 45,
+				"Padding": 2,
+				"Marker": "LQ==",
+				"Num": -1
+			},
+			"Properties": {
+				"id": "20230508143070-s9sw9hj",
+				"updated": "20230508152947"
+			},
+			"Children": [
+				{
+					"ID": "20230508143071-j4wtclt",
+					"Type": "NodeListItem",
+					"Data": "-",
+					"ListData": {
+						"BulletChar": 45,
+						"Padding": 2,
+						"Marker": "LQ==",
+						"Num": -1
+					},
+					"Properties": {
+						"id": "20230508143071-j4wtclt",
+						"updated": "20230508143071"
+					},
+					"Children": [
+						{
+							"ID": "20230508143072-7cj6d7u",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20230508143072-7cj6d7u",
+								"updated": "20230508143072"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "平面内嵌空间UV核心函数：",
+									"Properties": {
+										"id": ""
+									}
+								}
+							]
+						},
+						{
+							"ID": "20230508143073-dy01j32",
+							"Type": "NodeCodeBlock",
+							"IsFencedCodeBlock": true,
+							"CodeBlockFenceChar": 96,
+							"CodeBlockFenceLen": 3,
+							"CodeBlockFenceOffset": 2,
+							"CodeBlockOpenFence": "YGBg",
+							"CodeBlockInfo": "Z2xzbA==",
+							"CodeBlockCloseFence": "YGBg",
+							"Properties": {
+								"id": "20230508143073-dy01j32",
+								"updated": "20230508143073"
+							},
+							"Children": [
+								{
+									"Type": "NodeCodeBlockFenceOpenMarker",
+									"Data": "```",
+									"CodeBlockFenceLen": 3,
+									"Properties": {
+										"id": ""
+									}
+								},
+								{
+									"Type": "NodeCodeBlockFenceInfoMarker",
+									"CodeBlockInfo": "Z2xzbA==",
+									"Properties": {
+										"id": ""
+									}
+								},
+								{
+									"Type": "NodeCodeBlockCode",
+									"Data": "float2 FaceSpaceUV(float2 uv,float3 viewDir,float4 ZPos)\n                {\n\n                    viewDir.z /= ZPos.x;\n\n                    //约束UV回归0~1\n                    float2 newUV = frac(uv);\n\n                    //UV，0～1，转换为表面空间，X，Y为 -1~1，Z为1\n                    float3 FaceUVPos = float3(newUV * 2.0 - 1.0, 1.0);\n\n                    //使用视角朝向，获取物体自身空间坐标\n                    float3 FaceViewSpace = 1.0 / viewDir;\n\n                    //单位空间尺寸-平面深度空间尺寸\n                    float3 k = abs(FaceViewSpace) - FaceUVPos * FaceViewSpace;\n\n                    //获得最小坐标值\n                    float kMin = min(min(k.x, k.y), k.z);\n\n                    //表面坐标累加最小坐标缩放单位空间坐标\n                    float3 FaceInteriorSpace = FaceUVPos + kMin * viewDir;\n\n                    //获取缩放符号，来确定是否左右镜像。\n                    FaceInteriorSpace.x *=lerp(-1,1,step(0, 1 / ZPos.y));\n\n                    //使用缩放的绝对值去乘UV，使用加法累加偏移\n                    return (FaceInteriorSpace.xy*0.5+0.5)* abs(1 / ZPos.y)+ ZPos.zw;\n                }\n",
+									"Properties": {
+										"id": ""
+									}
+								},
+								{
+									"Type": "NodeCodeBlockFenceCloseMarker",
+									"Data": "```",
+									"CodeBlockFenceLen": 3,
+									"Properties": {
+										"id": ""
+									}
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20230508143074-avbemhv",
+					"Type": "NodeListItem",
+					"Data": "-",
+					"ListData": {
+						"Tight": true,
+						"BulletChar": 45,
+						"Padding": 2,
+						"Marker": "LQ==",
+						"Num": -1
+					},
+					"Properties": {
+						"id": "20230508143074-avbemhv",
+						"updated": "20230508143074"
+					},
+					"Children": [
+						{
+							"ID": "20230508143075-48ovu0c",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20230508143075-48ovu0c",
+								"updated": "20230508143075"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "Frag中的引用",
+									"Properties": {
+										"id": ""
+									}
+								}
+							]
+						},
+						{
+							"ID": "20230508143076-kc2mde7",
+							"Type": "NodeCodeBlock",
+							"IsFencedCodeBlock": true,
+							"CodeBlockFenceChar": 96,
+							"CodeBlockFenceLen": 3,
+							"CodeBlockFenceOffset": 2,
+							"CodeBlockOpenFence": "YGBg",
+							"CodeBlockInfo": "Z2xzbA==",
+							"CodeBlockCloseFence": "YGBg",
+							"Properties": {
+								"id": "20230508143076-kc2mde7",
+								"updated": "20230508143076"
+							},
+							"Children": [
+								{
+									"Type": "NodeCodeBlockFenceOpenMarker",
+									"Data": "```",
+									"CodeBlockFenceLen": 3,
+									"Properties": {
+										"id": ""
+									}
+								},
+								{
+									"Type": "NodeCodeBlockFenceInfoMarker",
+									"CodeBlockInfo": "Z2xzbA==",
+									"Properties": {
+										"id": ""
+									}
+								},
+								{
+									"Type": "NodeCodeBlockCode",
+									"Data": "//[NoScaleOffset]_PicTex(\"放置图像\", 2D) = \"white\" {}\n//_PicAdj(\"深度/大小/X偏移/Y偏移\",Vector) = (0.5,1,0,0)\nfixed4 pic = tex2D(_PicTex, FaceSpaceUV(i.uv, i.viewDir, _PicAdj));\n",
+									"Properties": {
+										"id": ""
+									}
+								},
+								{
+									"Type": "NodeCodeBlockFenceCloseMarker",
+									"Data": "```",
+									"CodeBlockFenceLen": 3,
+									"Properties": {
+										"id": ""
+									}
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20230508143077-qu5ix3b",
+					"Type": "NodeListItem",
+					"Data": "-",
+					"ListData": {
+						"Tight": true,
+						"BulletChar": 45,
+						"Padding": 2,
+						"Marker": "LQ==",
+						"Num": -1
+					},
+					"Properties": {
+						"id": "20230508143077-qu5ix3b",
+						"updated": "20230508152947"
+					},
+					"Children": [
+						{
+							"ID": "20230508143078-lvpjqcg",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20230508143078-lvpjqcg",
+								"updated": "20230508143078"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "截图效果",
+									"Properties": {
+										"id": ""
+									}
+								}
+							]
+						},
+						{
+							"ID": "20230508143079-f6tu14g",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20230508143079-f6tu14g",
+								"updated": "20230508152947"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "​"
+								},
+								{
+									"Type": "NodeImage",
+									"Data": "span",
+									"Children": [
+										{
+											"Type": "NodeBang"
+										},
+										{
+											"Type": "NodeOpenBracket"
+										},
+										{
+											"Type": "NodeLinkText",
+											"Data": "ExtraPic.png"
+										},
+										{
+											"Type": "NodeCloseBracket"
+										},
+										{
+											"Type": "NodeOpenParen"
+										},
+										{
+											"Type": "NodeLinkDest",
+											"Data": "assets/ExtraPic-20230508143213-6wwbntj.png"
+										},
+										{
+											"Type": "NodeCloseParen"
+										}
+									]
+								},
+								{
+									"Type": "NodeText",
+									"Data": "​"
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20230508143080-87egw4g",
+			"Type": "NodeHeading",
+			"HeadingLevel": 2,
+			"Properties": {
+				"id": "20230508143080-87egw4g",
+				"updated": "20230508143080"
+			},
+			"Children": [
+				{
+					"Type": "NodeHeadingC8hMarker",
+					"Data": "## ",
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
+					"Type": "NodeText",
+					"Data": "Demo视频",
+					"Properties": {
+						"id": ""
+					}
+				}
+			]
+		},
+		{
+			"ID": "20230508143081-ij1wlzz",
+			"Type": "NodeList",
+			"ListData": {
+				"BulletChar": 45,
+				"Padding": 2,
+				"Marker": "LQ==",
+				"Num": -1
+			},
+			"Properties": {
+				"id": "20230508143081-ij1wlzz",
+				"updated": "20230508153653"
+			},
+			"Children": [
+				{
+					"ID": "20230508143082-z97xum6",
+					"Type": "NodeListItem",
+					"Data": "-",
+					"ListData": {
+						"BulletChar": 45,
+						"Padding": 2,
+						"Marker": "LQ==",
+						"Num": -1
+					},
+					"Properties": {
+						"id": "20230508143082-z97xum6",
+						"updated": "20230508153546"
+					},
+					"Children": [
+						{
+							"ID": "20230508143083-5fsgpz0",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20230508143083-5fsgpz0",
+								"updated": "20230508143083"
+							},
+							"Children": [
+								{
+									"Type": "NodeTextMark",
+									"TextMarkType": "strong strong",
+									"TextMarkTextContent": "2D 纹理映射"
+								}
+							]
+						},
+						{
+							"ID": "20230508153546-4yx9jqh",
+							"Type": "NodeVideo",
+							"Data": "\u003cvideo controls=\"controls\" src=\"assets/Movie_2DAltas_x264-20230508153546-anifsd2.mp4\" data-src=\"assets/Movie_2DAltas_x264-20230508153546-anifsd2.mp4\"\u003e\u003c/video\u003e",
+							"Properties": {
+								"id": "20230508153546-4yx9jqh",
+								"updated": "20230508153546"
+							}
+						}
+					]
+				},
+				{
+					"ID": "20230508143085-7vulxm1",
+					"Type": "NodeListItem",
+					"Data": "-",
+					"ListData": {
+						"Tight": true,
+						"BulletChar": 45,
+						"Padding": 2,
+						"Marker": "LQ==",
+						"Num": -1
+					},
+					"Properties": {
+						"id": "20230508143085-7vulxm1",
+						"updated": "20230508153648"
+					},
+					"Children": [
+						{
+							"ID": "20230508143086-vp5g0ec",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20230508143086-vp5g0ec",
+								"updated": "20230508143086"
+							},
+							"Children": [
+								{
+									"Type": "NodeTextMark",
+									"Properties": {
+										"id": ""
+									},
+									"TextMarkType": "strong strong",
+									"TextMarkTextContent": "立方体（CubeMap）映射内部"
+								}
+							]
+						},
+						{
+							"ID": "20230508153648-x5ds09q",
+							"Type": "NodeVideo",
+							"Data": "\u003cvideo controls=\"controls\" src=\"assets/Movie_CubeMap_x264-20230508153647-eg9lssu.mp4\" data-src=\"assets/Movie_CubeMap_x264-20230508153647-eg9lssu.mp4\"\u003e\u003c/video\u003e",
+							"Properties": {
+								"id": "20230508153648-x5ds09q",
+								"updated": "20230508153648"
+							}
+						}
+					]
+				},
+				{
+					"ID": "20230508143088-h1q0t4c",
+					"Type": "NodeListItem",
+					"Data": "-",
+					"ListData": {
+						"Tight": true,
+						"BulletChar": 45,
+						"Padding": 2,
+						"Marker": "LQ==",
+						"Num": -1
+					},
+					"Properties": {
+						"id": "20230508143088-h1q0t4c",
+						"updated": "20230508153653"
+					},
+					"Children": [
+						{
+							"ID": "20230508143089-t70umlk",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20230508143089-t70umlk",
+								"updated": "20230508143089"
+							},
+							"Children": [
+								{
+									"Type": "NodeTextMark",
+									"Properties": {
+										"id": ""
+									},
+									"TextMarkType": "strong",
+									"TextMarkTextContent": "内部嵌套图像"
+								}
+							]
+						},
+						{
+							"ID": "20230508153653-zlxeyvs",
+							"Type": "NodeVideo",
+							"Data": "\u003cvideo controls=\"controls\" src=\"assets/Movie_CubeMap_ExtraPic_x264-20230508153652-k1gfr8s.mp4\" data-src=\"assets/Movie_CubeMap_ExtraPic_x264-20230508153652-k1gfr8s.mp4\"\u003e\u003c/video\u003e",
+							"Properties": {
+								"id": "20230508153653-zlxeyvs",
+								"updated": "20230508153653"
+							}
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20230508143091-6nqgmxi",
+			"Type": "NodeHeading",
+			"HeadingLevel": 2,
+			"Properties": {
+				"id": "20230508143091-6nqgmxi",
+				"updated": "20230508143091"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "源码附件"
+				}
+			]
+		},
+		{
+			"ID": "20230508152653-r7gmv6j",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20230508152653-r7gmv6j",
+				"updated": "20230508153313"
+			},
+			"Children": [
+				{
+					"Type": "NodeTextMark",
+					"TextMarkType": "a",
+					"TextMarkAHref": "assets/Interior_Mapping.unitypackage",
+					"TextMarkTextContent": "assets/.unitypackage"
+				}
+			]
+		},
+		{
+			"ID": "20230508153314-f6jtlnd",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20230508153314-f6jtlnd"
+			}
+		}
+	]
+}

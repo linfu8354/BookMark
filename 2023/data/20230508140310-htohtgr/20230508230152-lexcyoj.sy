@@ -1,0 +1,64 @@
+{
+	"ID": "20230508230152-lexcyoj",
+	"Spec": "1",
+	"Type": "NodeDocument",
+	"Properties": {
+		"id": "20230508230152-lexcyoj",
+		"title": "序列帧动画（多行多动画）",
+		"updated": "20230508230357"
+	},
+	"Children": [
+		{
+			"ID": "20230508230152-r69p0c8",
+			"Type": "NodeHeading",
+			"HeadingLevel": 1,
+			"Properties": {
+				"fold": "1",
+				"id": "20230508230152-r69p0c8",
+				"updated": "20230508230357"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "核心代码"
+				}
+			]
+		},
+		{
+			"ID": "20230508230229-4yk1ifa",
+			"Type": "NodeCodeBlock",
+			"IsFencedCodeBlock": true,
+			"Properties": {
+				"fold": "1",
+				"heading-fold": "1",
+				"id": "20230508230229-4yk1ifa",
+				"updated": "20230508230242"
+			},
+			"Children": [
+				{
+					"Type": "NodeCodeBlockFenceOpenMarker",
+					"Data": "```"
+				},
+				{
+					"Type": "NodeCodeBlockFenceInfoMarker",
+					"CodeBlockInfo": "YyM="
+				},
+				{
+					"Type": "NodeCodeBlockCode",
+					"Data": "float frameIndex = floor(fmod(_Time.y * _Speed, _YCount*_XCount));\nfloat y = floor(frameIndex /_XCount);\nfloat x = frameIndex - y * _XCount;\nhalf fixRate = 2/ _XCount;\nhalf2 uv =  float2(iuv.x / _XCount, iuv.y * fixRate/_YCount);\nuv.x += x / _XCount;\nuv.y -= y * fixRate/_YCount+ (texId * _YCount + 1) *fixRate/_YCount;\nreturn uv;\n"
+				},
+				{
+					"Type": "NodeCodeBlockFenceCloseMarker",
+					"Data": "```"
+				}
+			]
+		},
+		{
+			"ID": "20230508230307-hf1104o",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20230508230307-hf1104o"
+			}
+		}
+	]
+}

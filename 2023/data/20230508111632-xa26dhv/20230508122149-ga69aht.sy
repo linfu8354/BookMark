@@ -1,0 +1,501 @@
+{
+	"ID": "20230508122149-ga69aht",
+	"Spec": "1",
+	"Type": "NodeDocument",
+	"Properties": {
+		"id": "20230508122149-ga69aht",
+		"scroll": "{\u0026quot;startId\u0026quot;:\u0026quot;20230508122928-7ywvd05\u0026quot;,\u0026quot;endId\u0026quot;:\u0026quot;20230508122304-a6zexyo\u0026quot;,\u0026quot;scrollTop\u0026quot;:335,\u0026quot;focusId\u0026quot;:\u0026quot;20230508122149-gww2v1g\u0026quot;,\u0026quot;focusStart\u0026quot;:0,\u0026quot;focusEnd\u0026quot;:0}",
+		"title": "Unity的URP项目中使用自定义shader导致材质消失的解决办法",
+		"updated": "20230508122928"
+	},
+	"Children": [
+		{
+			"ID": "20230508122928-7ywvd05",
+			"Type": "NodeThematicBreak",
+			"Properties": {
+				"id": "20230508122928-7ywvd05"
+			}
+		},
+		{
+			"ID": "20230508122149-exlnohm",
+			"Type": "NodeCodeBlock",
+			"IsFencedCodeBlock": true,
+			"Properties": {
+				"id": "20230508122149-exlnohm",
+				"linenumber": "false",
+				"updated": "20230508122242"
+			},
+			"Children": [
+				{
+					"Type": "NodeCodeBlockFenceOpenMarker",
+					"Data": "```"
+				},
+				{
+					"Type": "NodeCodeBlockFenceInfoMarker"
+				},
+				{
+					"Type": "NodeCodeBlockCode",
+					"Data": "    中使用URP时，会有需求使用自定义的一些shader来实现特殊效果，这时如果我们直接使用新建材质与无光照着色器（Unlit shader），可能会发生一个对于新手而言意料之外的问题——**物体！消失了！**\n"
+				},
+				{
+					"Type": "NodeCodeBlockFenceCloseMarker",
+					"Data": "```"
+				}
+			]
+		},
+		{
+			"ID": "20230508122149-y0q68pi",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20230508122149-y0q68pi",
+				"updated": "20230508122149"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "​",
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
+					"Type": "NodeImage",
+					"Properties": {
+						"id": ""
+					},
+					"Children": [
+						{
+							"Type": "NodeBang",
+							"Data": "!",
+							"Properties": {
+								"id": ""
+							}
+						},
+						{
+							"Type": "NodeOpenBracket",
+							"Data": "[",
+							"Properties": {
+								"id": ""
+							}
+						},
+						{
+							"Type": "NodeCloseBracket",
+							"Data": "]",
+							"Properties": {
+								"id": ""
+							}
+						},
+						{
+							"Type": "NodeOpenParen",
+							"Data": "(",
+							"Properties": {
+								"id": ""
+							}
+						},
+						{
+							"Type": "NodeLinkDest",
+							"Data": "assets/a5840e00f8d0427d842e0fca8589e9be-20230508122148-23qu85g.png",
+							"Properties": {
+								"id": ""
+							}
+						},
+						{
+							"Type": "NodeCloseParen",
+							"Data": ")",
+							"Properties": {
+								"id": ""
+							}
+						}
+					]
+				},
+				{
+					"Type": "NodeText",
+					"Data": "​",
+					"Properties": {
+						"id": ""
+					}
+				}
+			]
+		},
+		{
+			"ID": "20230508122149-gww2v1g",
+			"Type": "NodeHeading",
+			"HeadingLevel": 2,
+			"Properties": {
+				"id": "20230508122149-gww2v1g",
+				"updated": "20230508122149"
+			},
+			"Children": [
+				{
+					"Type": "NodeHeadingC8hMarker",
+					"Data": "## ",
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
+					"Type": "NodeTextMark",
+					"Properties": {
+						"id": ""
+					},
+					"TextMarkType": "strong",
+					"TextMarkTextContent": "解决办法："
+				}
+			]
+		},
+		{
+			"ID": "20230508122149-biokwo5",
+			"Type": "NodeCodeBlock",
+			"IsFencedCodeBlock": true,
+			"Properties": {
+				"id": "20230508122149-biokwo5",
+				"updated": "20230508122149"
+			},
+			"Children": [
+				{
+					"Type": "NodeCodeBlockFenceOpenMarker",
+					"Data": "```"
+				},
+				{
+					"Type": "NodeCodeBlockFenceInfoMarker"
+				},
+				{
+					"Type": "NodeCodeBlockCode",
+					"Data": "    打开你正在使用的的​**通用渲染器（Universal Renderer Data）**​，找到​**渲染（Rendering）-\u003e深度引动模式（Depth Priming Mode）**​，将其从默认的“​**自动**​”修改为“​**已禁用**​”。\n"
+				},
+				{
+					"Type": "NodeCodeBlockFenceCloseMarker",
+					"Data": "```"
+				}
+			]
+		},
+		{
+			"ID": "20230508122149-kpc88us",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20230508122149-kpc88us",
+				"updated": "20230508122149"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "​",
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
+					"Type": "NodeImage",
+					"Properties": {
+						"id": ""
+					},
+					"Children": [
+						{
+							"Type": "NodeBang",
+							"Data": "!",
+							"Properties": {
+								"id": ""
+							}
+						},
+						{
+							"Type": "NodeOpenBracket",
+							"Data": "[",
+							"Properties": {
+								"id": ""
+							}
+						},
+						{
+							"Type": "NodeCloseBracket",
+							"Data": "]",
+							"Properties": {
+								"id": ""
+							}
+						},
+						{
+							"Type": "NodeOpenParen",
+							"Data": "(",
+							"Properties": {
+								"id": ""
+							}
+						},
+						{
+							"Type": "NodeLinkDest",
+							"Data": "assets/e1c8bf8f35bf41ed8f4c62f1f8c4515b-20230508122147-mpzszlb.png",
+							"Properties": {
+								"id": ""
+							}
+						},
+						{
+							"Type": "NodeCloseParen",
+							"Data": ")",
+							"Properties": {
+								"id": ""
+							}
+						}
+					]
+				},
+				{
+					"Type": "NodeText",
+					"Data": "​",
+					"Properties": {
+						"id": ""
+					}
+				}
+			]
+		},
+		{
+			"ID": "20230508122149-m7nng95",
+			"Type": "NodeThematicBreak",
+			"Properties": {
+				"id": "20230508122149-m7nng95",
+				"updated": "20230508122149"
+			}
+		},
+		{
+			"ID": "20230508122149-cxuplox",
+			"Type": "NodeHeading",
+			"HeadingLevel": 2,
+			"Properties": {
+				"id": "20230508122149-cxuplox",
+				"updated": "20230508122149"
+			},
+			"Children": [
+				{
+					"Type": "NodeHeadingC8hMarker",
+					"Data": "## ",
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
+					"Type": "NodeText",
+					"Data": "如果你的问题解决了并且想知道为什么的话，请接着往下阅读。",
+					"Properties": {
+						"id": ""
+					}
+				}
+			]
+		},
+		{
+			"ID": "20230508122149-4mqqlpp",
+			"Type": "NodeCodeBlock",
+			"IsFencedCodeBlock": true,
+			"CodeBlockFenceChar": 96,
+			"CodeBlockFenceLen": 3,
+			"CodeBlockOpenFence": "YGBg",
+			"CodeBlockCloseFence": "YGBg",
+			"Properties": {
+				"id": "20230508122149-4mqqlpp",
+				"updated": "20230508122149"
+			},
+			"Children": [
+				{
+					"Type": "NodeCodeBlockFenceOpenMarker",
+					"Data": "```",
+					"CodeBlockFenceLen": 3,
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
+					"Type": "NodeCodeBlockFenceInfoMarker",
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
+					"Type": "NodeCodeBlockCode",
+					"Data": "    什么是深度引动模式？深度引动技术是Unity2021.2中[URP](https://so.csdn.net/so/search?q=URP\u0026spm=1001.2101.3001.7020)管线的新增功能。在Unity的文档中是这样解释的：“The feature uses a depth prepass to determine which pixel shader invocations Unity can skip”，通过使用一种用于预处理深度信息的Pass来帮助Unity跳过对部分片元的渲染。而在使用Unity2021默认的URP项目时，其自动生成的**​通用渲染器文件（Universal Renderer Data）​**会默认开启这一项技术，而这也是问题的根源。\n\n    为什么深度引动模式会导致我们的物体消失？首先必须澄清的是，这并不是Unity的什么Bug，而是很典型的新手效应事件，对不熟悉技术的使用导致了意料之外的错误。深度引动模式需要使用一种LightMode为DepthOnly的特殊Pass来生成场景中不透明物体的深度图，而我们所创建的无光照着色器是不具有该类型Pass的（因为压根就没写这东西），这就导致在开启了该技术的渲染流程中，这些使用了“不具备**DepthOnlyPass**的[shader](https://so.csdn.net/so/search?q=shader\u0026spm=1001.2101.3001.7020)”的物体无法生成深度信息从而被Unity过早剔除无法进行后续的渲染，造成了物体的消失。\n\n    因此若想在URP项目中同时使用深度引动技术与自定义shader，则务必注意需要在自定义shader中向Unity声明DepthOnlyPass用于执行深度引导。幸运的是Unity在Universal Render Pipeline内置的Unlit shader中已经实现了该Pass，在自定义shader中使用以下语句即可直接使用。\n",
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
+					"Type": "NodeCodeBlockFenceCloseMarker",
+					"Data": "```",
+					"CodeBlockFenceLen": 3,
+					"Properties": {
+						"id": ""
+					}
+				}
+			]
+		},
+		{
+			"ID": "20230508122149-w10mmw3",
+			"Type": "NodeBlockquote",
+			"Properties": {
+				"id": "20230508122149-w10mmw3",
+				"updated": "20230508122149"
+			},
+			"Children": [
+				{
+					"Type": "NodeBlockquoteMarker",
+					"Data": "\u003e ",
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
+					"ID": "20230508122149-w3lof2k",
+					"Type": "NodeParagraph",
+					"Properties": {
+						"id": "20230508122149-w3lof2k",
+						"updated": "20230508122149"
+					},
+					"Children": [
+						{
+							"Type": "NodeTextMark",
+							"Properties": {
+								"id": ""
+							},
+							"TextMarkType": "strong",
+							"TextMarkTextContent": "UsePass \u0026quot;Universal Render Pipeline/Unlit/DepthOnly"
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20230508122149-9dtj0vh",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20230508122149-9dtj0vh",
+				"updated": "20230508122149"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "对比使用前后：",
+					"Properties": {
+						"id": ""
+					}
+				}
+			]
+		},
+		{
+			"ID": "20230508122149-sa55v90",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20230508122149-sa55v90",
+				"updated": "20230508122149"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "​",
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
+					"Type": "NodeImage",
+					"Properties": {
+						"id": ""
+					},
+					"Children": [
+						{
+							"Type": "NodeBang",
+							"Data": "!",
+							"Properties": {
+								"id": ""
+							}
+						},
+						{
+							"Type": "NodeOpenBracket",
+							"Data": "[",
+							"Properties": {
+								"id": ""
+							}
+						},
+						{
+							"Type": "NodeCloseBracket",
+							"Data": "]",
+							"Properties": {
+								"id": ""
+							}
+						},
+						{
+							"Type": "NodeOpenParen",
+							"Data": "(",
+							"Properties": {
+								"id": ""
+							}
+						},
+						{
+							"Type": "NodeLinkDest",
+							"Data": "assets/e426e05d3395495ba176a9831a4c7b27-20230508122147-ibsm4bs.png",
+							"Properties": {
+								"id": ""
+							}
+						},
+						{
+							"Type": "NodeCloseParen",
+							"Data": ")",
+							"Properties": {
+								"id": ""
+							}
+						}
+					]
+				},
+				{
+					"Type": "NodeText",
+					"Data": "​",
+					"Properties": {
+						"id": ""
+					}
+				}
+			]
+		},
+		{
+			"ID": "20230508122149-aemi4vn",
+			"Type": "NodeCodeBlock",
+			"IsFencedCodeBlock": true,
+			"CodeBlockFenceChar": 96,
+			"CodeBlockFenceLen": 3,
+			"CodeBlockOpenFence": "YGBg",
+			"CodeBlockCloseFence": "YGBg",
+			"Properties": {
+				"id": "20230508122149-aemi4vn",
+				"updated": "20230508122149"
+			},
+			"Children": [
+				{
+					"Type": "NodeCodeBlockFenceOpenMarker",
+					"Data": "```",
+					"CodeBlockFenceLen": 3,
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
+					"Type": "NodeCodeBlockFenceInfoMarker",
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
+					"Type": "NodeCodeBlockCode",
+					"Data": "   左侧未使用DepthOnlyPass，右侧则添加了DepthOnlyPass，两者均在前向渲染的情况下开启了深度引动模式。可见在使用了DepthOnlyPass的情况下，Unity通过DepthPrepass记录了我们Sphere的深度信息，从而保证了后续DrawOpaqueObjects的正确执行。\n",
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
+					"Type": "NodeCodeBlockFenceCloseMarker",
+					"Data": "```",
+					"CodeBlockFenceLen": 3,
+					"Properties": {
+						"id": ""
+					}
+				}
+			]
+		},
+		{
+			"ID": "20230508122304-a6zexyo",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20230508122304-a6zexyo"
+			}
+		}
+	]
+}

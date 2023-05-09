@@ -1,0 +1,381 @@
+{
+	"ID": "20230508121923-z9ysuxm",
+	"Spec": "1",
+	"Type": "NodeDocument",
+	"Properties": {
+		"id": "20230508121923-z9ysuxm",
+		"scroll": "{\u0026quot;startId\u0026quot;:\u0026quot;20230508121923-8s84vdc\u0026quot;,\u0026quot;endId\u0026quot;:\u0026quot;20230508121923-f2l20eo\u0026quot;,\u0026quot;scrollTop\u0026quot;:0,\u0026quot;focusId\u0026quot;:\u0026quot;20230508121923-8s84vdc\u0026quot;,\u0026quot;focusStart\u0026quot;:0,\u0026quot;focusEnd\u0026quot;:0}",
+		"title": "URP后处理(三)——Volume 控制后处理参数",
+		"updated": "20230508122427"
+	},
+	"Children": [
+		{
+			"ID": "20230508121923-8s84vdc",
+			"Type": "NodeThematicBreak",
+			"Properties": {
+				"id": "20230508121923-8s84vdc",
+				"updated": "20230508121923"
+			}
+		},
+		{
+			"ID": "20230508122427-bqjzzys",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20230508122427-bqjzzys"
+			}
+		},
+		{
+			"ID": "20230508121923-vqcr0tq",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20230508121923-vqcr0tq",
+				"updated": "20230508121923"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "将后处理参数添加到 ",
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
+					"Type": "NodeTextMark",
+					"Properties": {
+						"id": ""
+					},
+					"TextMarkType": "a",
+					"TextMarkAHref": "https://so.csdn.net/so/search?q=Volume\u0026spm=1001.2101.3001.7020",
+					"TextMarkTextContent": "Volume"
+				},
+				{
+					"Type": "NodeText",
+					"Data": " 中，如果后处理不需要通过 Volume 动态控制，可以不用，",
+					"Properties": {
+						"id": ""
+					}
+				}
+			]
+		},
+		{
+			"ID": "20230508121923-eiiy229",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20230508121923-eiiy229",
+				"updated": "20230508121923"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "参考代码以及注释：",
+					"Properties": {
+						"id": ""
+					}
+				}
+			]
+		},
+		{
+			"ID": "20230508121923-aiv6eyv",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20230508121923-aiv6eyv",
+				"updated": "20230508121923"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "其中 MaterialParameter 是 Volume 没有自带的材质类型，需要手动封装不存在的参数类型",
+					"Properties": {
+						"id": ""
+					}
+				}
+			]
+		},
+		{
+			"ID": "20230508121923-xfic9sz",
+			"Type": "NodeCodeBlock",
+			"IsFencedCodeBlock": true,
+			"CodeBlockFenceChar": 96,
+			"CodeBlockFenceLen": 3,
+			"CodeBlockOpenFence": "YGBg",
+			"CodeBlockInfo": "Y3NoYXJw",
+			"CodeBlockCloseFence": "YGBg",
+			"Properties": {
+				"id": "20230508121923-xfic9sz",
+				"updated": "20230508121923"
+			},
+			"Children": [
+				{
+					"Type": "NodeCodeBlockFenceOpenMarker",
+					"Data": "```",
+					"CodeBlockFenceLen": 3,
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
+					"Type": "NodeCodeBlockFenceInfoMarker",
+					"CodeBlockInfo": "Y3NoYXJw",
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
+					"Type": "NodeCodeBlockCode",
+					"Data": "using System;\nusing System.Threading.Tasks;\nusing UnityEngine;\nusing UnityEngine.Rendering;\nusing UnityEngine.Rendering.Universal;\n\npublic class MyVolume : VolumeComponent, IPostProcessComponent\n{ \n    //需要封装参数\n    public MaterialParameter Material = new MaterialParameter(null, false);\n    //需要封装参数\n    public ColorParameter BlendColor = new ColorParameter(Color.white);\n\n    public bool IsActive()\n    { \n        if (Material.overrideState == false)//如果材质没有被勾选，则不激活\n        { \n            return false;\n        }\n\n        return true;\n    }\n\n    public bool IsTileCompatible()\n    { \n        return true;\n    }\n}\n\n\n[Serializable]\npublic sealed class MaterialParameter : VolumeParameter\u003cMaterial\u003e\n{ \n    //没有自带的Material 封装，手动封装参数\n    public MaterialParameter(Material value, bool overrideState = false)\n        : base(value, overrideState)\n    { \n    }\n}\n",
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
+					"Type": "NodeCodeBlockFenceCloseMarker",
+					"Data": "```",
+					"CodeBlockFenceLen": 3,
+					"Properties": {
+						"id": ""
+					}
+				}
+			]
+		},
+		{
+			"ID": "20230508121923-dadw8oe",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20230508121923-dadw8oe",
+				"updated": "20230508121923"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "MaterialParameter 修改，不需要从 ",
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
+					"Type": "NodeTextMark",
+					"Properties": {
+						"id": ""
+					},
+					"TextMarkType": "a",
+					"TextMarkAHref": "https://so.csdn.net/so/search?q=Render\u0026spm=1001.2101.3001.7020",
+					"TextMarkTextContent": "Render"
+				},
+				{
+					"Type": "NodeText",
+					"Data": " Feature 面板获取参数，改为从 VolumeManager 获取",
+					"Properties": {
+						"id": ""
+					}
+				}
+			]
+		},
+		{
+			"ID": "20230508121923-w2rff09",
+			"Type": "NodeCodeBlock",
+			"IsFencedCodeBlock": true,
+			"CodeBlockFenceChar": 96,
+			"CodeBlockFenceLen": 3,
+			"CodeBlockOpenFence": "YGBg",
+			"CodeBlockInfo": "Y3NoYXJw",
+			"CodeBlockCloseFence": "YGBg",
+			"Properties": {
+				"id": "20230508121923-w2rff09",
+				"updated": "20230508121923"
+			},
+			"Children": [
+				{
+					"Type": "NodeCodeBlockFenceOpenMarker",
+					"Data": "```",
+					"CodeBlockFenceLen": 3,
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
+					"Type": "NodeCodeBlockFenceInfoMarker",
+					"CodeBlockInfo": "Y3NoYXJw",
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
+					"Type": "NodeCodeBlockCode",
+					"Data": "using UnityEngine;\nusing UnityEngine.Rendering;\nusing UnityEngine.Rendering.Universal;\n\npublic class MyVolumeFeature : ScriptableRendererFeature\n{ \n    public Material Material; //UniversalRenderPipelineAsset_Renderer 面板，设置材质\n    public Color BlendColor;\n    private MyVolumeFeaturePass myPass;\n   \n    public override void Create()\n    { \n        myPass = new MyVolumeFeaturePass();\n    }\n\n    public override void AddRenderPasses(ScriptableRenderer renderer, ref RenderingData renderingData)\n    { \n        renderer.EnqueuePass(myPass);\n        myPass.SetValue(renderer.cameraColorTarget, Material,BlendColor); //传递给Pass 处理\n    }\n}\n\npublic class MyVolumeFeaturePass : ScriptableRenderPass\n{ \n    private Material Material;\n    private RenderTargetIdentifier source;\n    private Color color;//接受面板颜色\n    public override void Execute(ScriptableRenderContext context, ref RenderingData renderingData)\n    { \n         MyVolume Volume = VolumeManager.instance.stack.GetComponent\u003cMyVolume\u003e();\n       \n         if (!Volume.IsActive())//没激活Volume 则不后处理\n         { \n             return;\n         }\n        //执行后处理\n        //设置要混合的材质参数，从Volume 获取\n        Material = Volume.Material.value;\n        Material.SetColor(\"_Color\",Volume.BlendColor.value);\n      \n        CommandBuffer cmd = CommandBufferPool.Get();\n        //source  //源图像\n        var dec = renderingData.cameraData.cameraTargetDescriptor; //目标图像\n        RenderTargetHandle tempTargetHandle=new RenderTargetHandle();\n        cmd.GetTemporaryRT(tempTargetHandle.id, dec);\n     \n        cmd.Blit(source, tempTargetHandle.Identifier(), Material);\n        //核心命令CommandBuffer\n        cmd.Blit(tempTargetHandle.Identifier(), source); //相当于 Graphics.Blit\n\n        context.ExecuteCommandBuffer(cmd);\n        CommandBufferPool.Release(cmd);\n    }\n  \n    public void SetValue(RenderTargetIdentifier source, Material material, Color blendColor)\n    { \n        Material = material; //接受面板材质\n        this.source = source;\n        color = blendColor;\n    }\n}\n",
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
+					"Type": "NodeCodeBlockFenceCloseMarker",
+					"Data": "```",
+					"CodeBlockFenceLen": 3,
+					"Properties": {
+						"id": ""
+					}
+				}
+			]
+		},
+		{
+			"ID": "20230508121923-vidjy1s",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20230508121923-vidjy1s",
+				"updated": "20230508121923"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "最终效果：与自带的 Volume 叠加",
+					"Properties": {
+						"id": ""
+					}
+				}
+			]
+		},
+		{
+			"ID": "20230508121923-09edfm9",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20230508121923-09edfm9",
+				"updated": "20230508121923"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "UI 没有被 MyVolume 后处理,因为没有设置后处理时机",
+					"Properties": {
+						"id": ""
+					}
+				}
+			]
+		},
+		{
+			"ID": "20230508121923-mgb2zlo",
+			"Type": "NodeCodeBlock",
+			"IsFencedCodeBlock": true,
+			"CodeBlockFenceChar": 96,
+			"CodeBlockFenceLen": 3,
+			"CodeBlockOpenFence": "YGBg",
+			"CodeBlockInfo": "Y3NoYXJw",
+			"CodeBlockCloseFence": "YGBg",
+			"Properties": {
+				"id": "20230508121923-mgb2zlo",
+				"updated": "20230508121923"
+			},
+			"Children": [
+				{
+					"Type": "NodeCodeBlockFenceOpenMarker",
+					"Data": "```",
+					"CodeBlockFenceLen": 3,
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
+					"Type": "NodeCodeBlockFenceInfoMarker",
+					"CodeBlockInfo": "Y3NoYXJw",
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
+					"Type": "NodeCodeBlockCode",
+					"Data": "myPass.renderPassEvent = RenderPassEvent.AfterRenderingTransparents;\n",
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
+					"Type": "NodeCodeBlockFenceCloseMarker",
+					"Data": "```",
+					"CodeBlockFenceLen": 3,
+					"Properties": {
+						"id": ""
+					}
+				}
+			]
+		},
+		{
+			"ID": "20230508121923-f2l20eo",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20230508121923-f2l20eo",
+				"updated": "20230508121923"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "​",
+					"Properties": {
+						"id": ""
+					}
+				},
+				{
+					"Type": "NodeImage",
+					"Properties": {
+						"id": ""
+					},
+					"Children": [
+						{
+							"Type": "NodeBang",
+							"Data": "!",
+							"Properties": {
+								"id": ""
+							}
+						},
+						{
+							"Type": "NodeOpenBracket",
+							"Data": "[",
+							"Properties": {
+								"id": ""
+							}
+						},
+						{
+							"Type": "NodeLinkText",
+							"Data": "file",
+							"Properties": {
+								"id": ""
+							}
+						},
+						{
+							"Type": "NodeCloseBracket",
+							"Data": "]",
+							"Properties": {
+								"id": ""
+							}
+						},
+						{
+							"Type": "NodeOpenParen",
+							"Data": "(",
+							"Properties": {
+								"id": ""
+							}
+						},
+						{
+							"Type": "NodeLinkDest",
+							"Data": "assets/d59d65e4be227e46c19d3aafe31cfb39-20230508121923-o0i809r.png",
+							"Properties": {
+								"id": ""
+							}
+						},
+						{
+							"Type": "NodeCloseParen",
+							"Data": ")",
+							"Properties": {
+								"id": ""
+							}
+						}
+					]
+				},
+				{
+					"Type": "NodeText",
+					"Data": "​",
+					"Properties": {
+						"id": ""
+					}
+				}
+			]
+		}
+	]
+}

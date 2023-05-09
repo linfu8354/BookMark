@@ -1,0 +1,179 @@
+{
+	"ID": "20230508230844-8b7cvrz",
+	"Spec": "1",
+	"Type": "NodeDocument",
+	"Properties": {
+		"id": "20230508230844-8b7cvrz",
+		"title": "ASE节点图",
+		"updated": "20230508232836"
+	},
+	"Children": [
+		{
+			"ID": "20230508232639-8sxgs3h",
+			"Type": "NodeHeading",
+			"HeadingLevel": 3,
+			"Properties": {
+				"bookmark": "法线解压",
+				"id": "20230508232639-8sxgs3h",
+				"updated": "20230508232836"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "UnpackNormal"
+				}
+			]
+		},
+		{
+			"ID": "20230508230858-es1zxcz",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20230508230858-es1zxcz",
+				"updated": "20230508231049"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "​"
+				},
+				{
+					"Type": "NodeImage",
+					"Data": "span",
+					"Children": [
+						{
+							"Type": "NodeBang"
+						},
+						{
+							"Type": "NodeOpenBracket"
+						},
+						{
+							"Type": "NodeLinkText",
+							"Data": "Unpack Normal"
+						},
+						{
+							"Type": "NodeCloseBracket"
+						},
+						{
+							"Type": "NodeOpenParen"
+						},
+						{
+							"Type": "NodeLinkDest",
+							"Data": "assets/Unpack Normal-20230508230858-pyrr9nf.png"
+						},
+						{
+							"Type": "NodeCloseParen"
+						}
+					]
+				},
+				{
+					"Type": "NodeText",
+					"Data": "​"
+				}
+			]
+		},
+		{
+			"ID": "20230508231157-565ll8g",
+			"Type": "NodeSuperBlock",
+			"Properties": {
+				"id": "20230508231157-565ll8g",
+				"updated": "20230508232720"
+			},
+			"Children": [
+				{
+					"Type": "NodeSuperBlockOpenMarker"
+				},
+				{
+					"Type": "NodeSuperBlockLayoutMarker",
+					"Data": "row"
+				},
+				{
+					"ID": "20230508232629-rfs9xd2",
+					"Type": "NodeHeading",
+					"HeadingLevel": 3,
+					"Properties": {
+						"id": "20230508232629-rfs9xd2",
+						"updated": "20230508232720"
+					},
+					"Children": [
+						{
+							"Type": "NodeText",
+							"Data": "闪电的节点图"
+						}
+					]
+				},
+				{
+					"ID": "20230508231124-ygrzyiz",
+					"Type": "NodeParagraph",
+					"Properties": {
+						"id": "20230508231124-ygrzyiz",
+						"updated": "20230508231157"
+					},
+					"Children": [
+						{
+							"Type": "NodeText",
+							"Data": "​"
+						},
+						{
+							"Type": "NodeImage",
+							"Data": "span",
+							"Children": [
+								{
+									"Type": "NodeBang"
+								},
+								{
+									"Type": "NodeOpenBracket"
+								},
+								{
+									"Type": "NodeLinkText",
+									"Data": "闪电的节点图"
+								},
+								{
+									"Type": "NodeCloseBracket"
+								},
+								{
+									"Type": "NodeOpenParen"
+								},
+								{
+									"Type": "NodeLinkDest",
+									"Data": "assets/闪电的节点图-20230508231123-mcos1yi.png"
+								},
+								{
+									"Type": "NodeCloseParen"
+								}
+							]
+						},
+						{
+							"Type": "NodeText",
+							"Data": "​"
+						}
+					]
+				},
+				{
+					"Type": "NodeSuperBlockCloseMarker"
+				}
+			]
+		},
+		{
+			"ID": "20230508231127-2ch0pu5",
+			"Type": "NodeHeading",
+			"HeadingLevel": 3,
+			"Properties": {
+				"id": "20230508231127-2ch0pu5",
+				"updated": "20230508231352"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "MatCap"
+				}
+			]
+		},
+		{
+			"ID": "20230508231524-8fzp17o",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20230508231524-8fzp17o"
+			}
+		}
+	]
+}

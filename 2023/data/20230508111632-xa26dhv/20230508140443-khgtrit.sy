@@ -1,0 +1,463 @@
+{
+	"ID": "20230508140443-khgtrit",
+	"Spec": "1",
+	"Type": "NodeDocument",
+	"Properties": {
+		"id": "20230508140443-khgtrit",
+		"scroll": "{\u0026quot;startId\u0026quot;:\u0026quot;20230508140656-wv0xt42\u0026quot;,\u0026quot;endId\u0026quot;:\u0026quot;20230508141327-3oqsitl\u0026quot;,\u0026quot;scrollTop\u0026quot;:0,\u0026quot;focusId\u0026quot;:\u0026quot;20230508140828-m8pqe6f\u0026quot;,\u0026quot;focusStart\u0026quot;:12,\u0026quot;focusEnd\u0026quot;:12}",
+		"title": "EmissionColor烘焙",
+		"updated": "20230508140731"
+	},
+	"Children": [
+		{
+			"ID": "20230508140656-wv0xt42",
+			"Type": "NodeHeading",
+			"HeadingLevel": 5,
+			"Properties": {
+				"id": "20230508140656-wv0xt42",
+				"updated": "20230508140731"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "均为静态 GI（自发光光源与光照物体）"
+				}
+			]
+		},
+		{
+			"ID": "20230508140732-40qjw85",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20230508140732-40qjw85",
+				"style": "color: var(--b3-card-error-color); background-color: var(--b3-card-error-background);",
+				"updated": "20230508141405"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "​​"
+				},
+				{
+					"Type": "NodeImage",
+					"Data": "span",
+					"Children": [
+						{
+							"Type": "NodeBang"
+						},
+						{
+							"Type": "NodeOpenBracket"
+						},
+						{
+							"Type": "NodeLinkText",
+							"Data": "image"
+						},
+						{
+							"Type": "NodeCloseBracket"
+						},
+						{
+							"Type": "NodeOpenParen"
+						},
+						{
+							"Type": "NodeLinkDest",
+							"Data": "assets/image-20230508140822-ku3i8qr.png"
+						},
+						{
+							"Type": "NodeCloseParen"
+						}
+					]
+				},
+				{
+					"Type": "NodeText",
+					"Data": "​"
+				}
+			]
+		},
+		{
+			"ID": "20230508140828-m8pqe6f",
+			"Type": "NodeHeading",
+			"HeadingLevel": 5,
+			"Properties": {
+				"id": "20230508140828-m8pqe6f",
+				"updated": "20230508140924"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "ASE 自定义自发光设置"
+				}
+			]
+		},
+		{
+			"ID": "20230508140928-uqrjte2",
+			"Type": "NodeList",
+			"ListData": {
+				"Typ": 1
+			},
+			"Properties": {
+				"id": "20230508140928-uqrjte2",
+				"updated": "20230508141000"
+			},
+			"Children": [
+				{
+					"ID": "20230508140954-gpq5j4t",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "MS4=",
+						"Num": 1
+					},
+					"Properties": {
+						"id": "20230508140954-gpq5j4t",
+						"updated": "20230508141000"
+					},
+					"Children": [
+						{
+							"ID": "20230508140954-d7d3ca4",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20230508140954-d7d3ca4",
+								"updated": "20230508141000"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "勾选 MetaPass"
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20230508140946-7oxb1ma",
+			"Type": "NodeList",
+			"ListData": {
+				"Typ": 1
+			},
+			"Properties": {
+				"id": "20230508140946-7oxb1ma",
+				"updated": "20230508141030"
+			},
+			"Children": [
+				{
+					"ID": "20230508141006-l3gkvge",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "Mi4=",
+						"Num": 2
+					},
+					"Properties": {
+						"fold": "0",
+						"id": "20230508141006-l3gkvge",
+						"updated": "20230508141030"
+					},
+					"Children": [
+						{
+							"ID": "20230508141006-hy9wje8",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20230508141006-hy9wje8",
+								"updated": "20230508141006"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "不同光照模型设置   "
+								}
+							]
+						},
+						{
+							"ID": "20230508141028-nr6fd50",
+							"Type": "NodeList",
+							"ListData": {
+								"Typ": 1
+							},
+							"Properties": {
+								"id": "20230508141028-nr6fd50",
+								"updated": "20230508141030"
+							},
+							"Children": [
+								{
+									"ID": "20230508141017-aeo5hll",
+									"Type": "NodeListItem",
+									"ListData": {
+										"Typ": 1,
+										"Delimiter": 46,
+										"Marker": "MS4=",
+										"Num": 1
+									},
+									"Properties": {
+										"id": "20230508141017-aeo5hll",
+										"style": "color: var(--b3-card-error-color); background-color: var(--b3-card-error-background);"
+									},
+									"Children": [
+										{
+											"ID": "20230508141017-gaa8ywh",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20230508141017-gaa8ywh",
+												"updated": "20230508141050"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "Unlit 设置：\n​"
+												},
+												{
+													"Type": "NodeImage",
+													"Data": "span",
+													"Children": [
+														{
+															"Type": "NodeBang"
+														},
+														{
+															"Type": "NodeOpenBracket"
+														},
+														{
+															"Type": "NodeLinkText",
+															"Data": "image"
+														},
+														{
+															"Type": "NodeCloseBracket"
+														},
+														{
+															"Type": "NodeOpenParen"
+														},
+														{
+															"Type": "NodeLinkDest",
+															"Data": "assets/image-20230508141050-zz25s8r.png"
+														},
+														{
+															"Type": "NodeCloseParen"
+														}
+													]
+												},
+												{
+													"Type": "NodeText",
+													"Data": "​\n"
+												}
+											]
+										}
+									]
+								},
+								{
+									"ID": "20230508141030-y5y3vzu",
+									"Type": "NodeListItem",
+									"ListData": {
+										"Typ": 1,
+										"Delimiter": 46,
+										"Marker": "Mi4=",
+										"Num": 2
+									},
+									"Properties": {
+										"id": "20230508141030-y5y3vzu",
+										"style": "color: var(--b3-card-error-color); background-color: var(--b3-card-error-background);"
+									},
+									"Children": [
+										{
+											"ID": "20230508141030-c31y368",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20230508141030-c31y368",
+												"updated": "20230508141103"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "Lit模式：\n​"
+												},
+												{
+													"Type": "NodeImage",
+													"Data": "span",
+													"Children": [
+														{
+															"Type": "NodeBang"
+														},
+														{
+															"Type": "NodeOpenBracket"
+														},
+														{
+															"Type": "NodeLinkText",
+															"Data": "image"
+														},
+														{
+															"Type": "NodeCloseBracket"
+														},
+														{
+															"Type": "NodeOpenParen"
+														},
+														{
+															"Type": "NodeLinkDest",
+															"Data": "assets/image-20230508141103-lipbmli.png"
+														},
+														{
+															"Type": "NodeCloseParen"
+														}
+													]
+												},
+												{
+													"Type": "NodeText",
+													"Data": "​\n"
+												}
+											]
+										}
+									]
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20230508141132-403ot1d",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "My4=",
+						"Num": 3
+					},
+					"Properties": {
+						"fold": "0",
+						"id": "20230508141132-403ot1d",
+						"updated": "20230508141148"
+					},
+					"Children": [
+						{
+							"ID": "20230508141132-6jop3sn",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20230508141132-6jop3sn",
+								"updated": "20230508141133"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "开启Global lllumination的选项（默认为None，不烘焙自发光）"
+								}
+							]
+						},
+						{
+							"ID": "20230508141148-6r0m0s4",
+							"Type": "NodeList",
+							"ListData": {
+								"Typ": 1
+							},
+							"Properties": {
+								"id": "20230508141148-6r0m0s4",
+								"style": "color: var(--b3-card-error-color); background-color: var(--b3-card-error-background);"
+							},
+							"Children": [
+								{
+									"ID": "20230508141141-38od3aa",
+									"Type": "NodeListItem",
+									"ListData": {
+										"Typ": 1,
+										"Delimiter": 46,
+										"Marker": "MS4=",
+										"Num": 1
+									},
+									"Properties": {
+										"id": "20230508141141-38od3aa"
+									},
+									"Children": [
+										{
+											"ID": "20230508141144-tuh8cwt",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20230508141144-tuh8cwt",
+												"updated": "20230508141144"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "​"
+												},
+												{
+													"Type": "NodeImage",
+													"Data": "span",
+													"Children": [
+														{
+															"Type": "NodeBang"
+														},
+														{
+															"Type": "NodeOpenBracket"
+														},
+														{
+															"Type": "NodeLinkText",
+															"Data": "image"
+														},
+														{
+															"Type": "NodeCloseBracket"
+														},
+														{
+															"Type": "NodeOpenParen"
+														},
+														{
+															"Type": "NodeLinkDest",
+															"Data": "assets/image-20230508141144-teqb5pc.png"
+														},
+														{
+															"Type": "NodeCloseParen"
+														}
+													]
+												}
+											]
+										}
+									]
+								},
+								{
+									"ID": "20230508141203-z6zubpk",
+									"Type": "NodeListItem",
+									"ListData": {
+										"Typ": 1,
+										"Delimiter": 46,
+										"Marker": "Mi4=",
+										"Num": 2
+									},
+									"Properties": {
+										"id": "20230508141203-z6zubpk"
+									},
+									"Children": [
+										{
+											"ID": "20230508141203-715vunp",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20230508141203-715vunp",
+												"updated": "20230508141203"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "选择模式为Realtime即可（与灯光的烘焙方式有关，即灯光为纯烘焙模式时，Realtime模式相当于Baked模式，不能动态更改颜色及强度）​"
+												}
+											]
+										}
+									]
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20230508140804-36x2g25",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20230508140804-36x2g25",
+				"updated": "20230508140804"
+			}
+		},
+		{
+			"ID": "20230508141327-3oqsitl",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20230508141327-3oqsitl"
+			}
+		}
+	]
+}

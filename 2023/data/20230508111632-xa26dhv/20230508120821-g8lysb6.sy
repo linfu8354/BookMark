@@ -1,0 +1,443 @@
+{
+	"ID": "20230508120821-g8lysb6",
+	"Spec": "1",
+	"Type": "NodeDocument",
+	"Properties": {
+		"id": "20230508120821-g8lysb6",
+		"scroll": "{\u0026quot;startId\u0026quot;:\u0026quot;20230508120821-0mjbs1x\u0026quot;,\u0026quot;endId\u0026quot;:\u0026quot;20230508120821-l8w75ad\u0026quot;,\u0026quot;scrollTop\u0026quot;:0,\u0026quot;focusId\u0026quot;:\u0026quot;20230508120821-0mjbs1x\u0026quot;,\u0026quot;focusStart\u0026quot;:6,\u0026quot;focusEnd\u0026quot;:6}",
+		"title": "Spine使用图片换装 - Unity",
+		"updated": "20230508160243"
+	},
+	"Children": [
+		{
+			"ID": "20230508120821-0mjbs1x",
+			"Type": "NodeHeading",
+			"HeadingLevel": 2,
+			"Properties": {
+				"id": "20230508120821-0mjbs1x",
+				"updated": "20230508120821"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "Spine使用图片换装 - Unity"
+				}
+			]
+		},
+		{
+			"ID": "20230508120821-pc9rekt",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20230508120821-pc9rekt",
+				"updated": "20230508121008"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "Spine是一款专门为软件和游戏开发设计,量身打造的2D动画软件。动画师,原画师和程序共同为您的游戏赋予生命。\n"
+				},
+				{
+					"Type": "NodeTextMark",
+					"TextMarkType": "a",
+					"TextMarkAHref": "https://link.jianshu.com/?t=http://zh.esotericsoftware.com/spine-using-runtimes",
+					"TextMarkTextContent": "http://zh.esotericsoftware.com/spine-using-runtimes"
+				}
+			]
+		},
+		{
+			"ID": "20230508120821-k8khl2w",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20230508120821-k8khl2w",
+				"updated": "20230508160243"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "​"
+				},
+				{
+					"Type": "NodeImage",
+					"Data": "span",
+					"Children": [
+						{
+							"Type": "NodeBang"
+						},
+						{
+							"Type": "NodeOpenBracket"
+						},
+						{
+							"Type": "NodeLinkText"
+						},
+						{
+							"Type": "NodeCloseBracket"
+						},
+						{
+							"Type": "NodeOpenParen"
+						},
+						{
+							"Type": "NodeLinkDest",
+							"Data": "assets/net-img-906135-9016650b557a6604-20230508120821-fejm5tx.png"
+						},
+						{
+							"Type": "NodeCloseParen"
+						}
+					]
+				},
+				{
+					"Type": "NodeText",
+					"Data": "​"
+				}
+			]
+		},
+		{
+			"ID": "20230508120821-4d122jp",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20230508120821-4d122jp",
+				"updated": "20230508120821"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "Spine"
+				}
+			]
+		},
+		{
+			"ID": "20230508120821-83czr8v",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20230508120821-83czr8v",
+				"updated": "20230508120821"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "这次教大家如何在Unity里使用图片进行Spine换装。"
+				}
+			]
+		},
+		{
+			"ID": "20230508120821-git6f8p",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20230508120821-git6f8p",
+				"updated": "20230508120821"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "Spine本身提供了2个方法来换装，分别是换全套和换某部分。"
+				}
+			]
+		},
+		{
+			"ID": "20230508120821-zusia72",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20230508120821-zusia72",
+				"updated": "20230508120821"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "这两个方法都是使用了Spine自身的AtlasRegion，这种情况下没有美工输出AtlasRegion就不能随意使用任意图片进行换装。"
+				}
+			]
+		},
+		{
+			"ID": "20230508120821-djmrz7a",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20230508120821-djmrz7a",
+				"updated": "20230508120821"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "现在先搞清楚Spine的设置关系，首先是有了AtlasRegion，里面有许多组成一个个体（角色）的各部分的Slot，然后Slot里包含Attachment，里面又存放了图片信息。"
+				}
+			]
+		},
+		{
+			"ID": "20230508120821-y1h01rp",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20230508120821-y1h01rp",
+				"updated": "20230508120821"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "所以我们的换装思路是：使用Texture2D自建Spine的AtlasRegion，然后获取要换掉的Slot，最后对Slot的Attachment进行换图，并重新计算图片显示。"
+				}
+			]
+		},
+		{
+			"ID": "20230508120821-4m24lbp",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20230508120821-4m24lbp",
+				"updated": "20230508120821"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "①"
+				}
+			]
+		},
+		{
+			"ID": "20230508120821-urz0085",
+			"Type": "NodeCodeBlock",
+			"IsFencedCodeBlock": true,
+			"Properties": {
+				"id": "20230508120821-urz0085",
+				"updated": "20230508120821"
+			},
+			"Children": [
+				{
+					"Type": "NodeCodeBlockFenceOpenMarker",
+					"Data": "```"
+				},
+				{
+					"Type": "NodeCodeBlockFenceInfoMarker",
+					"CodeBlockInfo": "Y3Bw"
+				},
+				{
+					"Type": "NodeCodeBlockCode",
+					"Data": " private AtlasRegion CreateRegion(Texture2D texture)\n        {\n            Spine.AtlasRegion region = new AtlasRegion();\n            region.width = texture.width;\n            region.height = texture.height;\n            region.originalWidth = texture.width;\n            region.originalHeight = texture.height;\n            region.rotate = false;\n            region.page = new AtlasPage();\n            region.page.name = texture.name;\n            region.page.width = texture.width;\n            region.page.height = texture.height;\n            region.page.uWrap = TextureWrap.ClampToEdge;\n            region.page.vWrap = TextureWrap.ClampToEdge;\n            return region;\n        }   \n"
+				},
+				{
+					"Type": "NodeCodeBlockFenceCloseMarker",
+					"Data": "```"
+				}
+			]
+		},
+		{
+			"ID": "20230508120821-m076k1m",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20230508120821-m076k1m",
+				"updated": "20230508120821"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "②"
+				}
+			]
+		},
+		{
+			"ID": "20230508120821-wht2z9e",
+			"Type": "NodeCodeBlock",
+			"IsFencedCodeBlock": true,
+			"Properties": {
+				"id": "20230508120821-wht2z9e",
+				"updated": "20230508120821"
+			},
+			"Children": [
+				{
+					"Type": "NodeCodeBlockFenceOpenMarker",
+					"Data": "```"
+				},
+				{
+					"Type": "NodeCodeBlockFenceInfoMarker",
+					"CodeBlockInfo": "a290bGlu"
+				},
+				{
+					"Type": "NodeCodeBlockCode",
+					"Data": "Material CreateRegionAttachmentByTexture(Slot slot, Texture2D texture)\n        {\n            if (slot == null) { return null; }\n            if (texture == null) { return null; }\n\n            RegionAttachment attachment = slot.Attachment as RegionAttachment;\n            if (attachment == null)  {  return null; }\n\n            attachment.RendererObject = CreateRegion(texture);\n            attachment.SetUVs(0f, 1f, 1f, 0f, false);\n\n            Material mat = new Material(Shader.Find(\"Sprites/Default\"));\n            mat.mainTexture = texture;\n            (attachment.RendererObject as AtlasRegion).page.rendererObject = mat;\n          \n            slot.Attachment = attachment;\n            return mat;\n        }      \n"
+				},
+				{
+					"Type": "NodeCodeBlockFenceCloseMarker",
+					"Data": "```"
+				}
+			]
+		},
+		{
+			"ID": "20230508120821-8qs2cpk",
+			"Type": "NodeCodeBlock",
+			"IsFencedCodeBlock": true,
+			"Properties": {
+				"id": "20230508120821-8qs2cpk",
+				"updated": "20230508120821"
+			},
+			"Children": [
+				{
+					"Type": "NodeCodeBlockFenceOpenMarker",
+					"Data": "```"
+				},
+				{
+					"Type": "NodeCodeBlockFenceInfoMarker",
+					"CodeBlockInfo": "Y3NoYXJw"
+				},
+				{
+					"Type": "NodeCodeBlockCode",
+					"Data": "Material CreateMeshAttachmentByTexture(Spine.Slot slot, Texture2D texture)\n{\n      if (slot == null) return null;\n      MeshAttachment oldAtt = slot.Attachment as MeshAttachment;\n      if (oldAtt == null || texture == null) return null;\n\n      MeshAttachment att = new MeshAttachment(oldAtt.Name);\n      att.RendererObject = CreateRegion(texture);\n      att.Path = oldAtt.Path;\n\n      att.Bones = oldAtt.Bones;\n      att.Edges = oldAtt.Edges;\n      att.Triangles = oldAtt.triangles;\n      att.Vertices = oldAtt.Vertices;\n      att.WorldVerticesLength = oldAtt.WorldVerticesLength;\n      att.HullLength = oldAtt.HullLength;\n      att.RegionRotate = false;\n\n      att.RegionU = 0f;\n      att.RegionV = 1f;\n      att.RegionU2 = 1f;\n      att.RegionV2 = 0f;\n      att.RegionUVs = oldAtt.RegionUVs;\n\n      att.UpdateUVs();\n\n      Material mat = new Material(Shader.Find(\"Sprites/Default\"));\n      mat.mainTexture = texture;\n      (att.RendererObject as Spine.AtlasRegion).page.rendererObject = mat;\n      slot.Attachment = att;\n      return mat;\n}\n"
+				},
+				{
+					"Type": "NodeCodeBlockFenceCloseMarker",
+					"Data": "```"
+				}
+			]
+		},
+		{
+			"ID": "20230508120821-cqguhvx",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20230508120821-cqguhvx",
+				"updated": "20230508120821"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "③"
+				}
+			]
+		},
+		{
+			"ID": "20230508120821-r97r3os",
+			"Type": "NodeCodeBlock",
+			"IsFencedCodeBlock": true,
+			"Properties": {
+				"id": "20230508120821-r97r3os",
+				"updated": "20230508120821"
+			},
+			"Children": [
+				{
+					"Type": "NodeCodeBlockFenceOpenMarker",
+					"Data": "```"
+				},
+				{
+					"Type": "NodeCodeBlockFenceInfoMarker",
+					"CodeBlockInfo": "Y3Bw"
+				},
+				{
+					"Type": "NodeCodeBlockCode",
+					"Data": "Material m;\nstring slot;\nTexture2D texture;\nvoid SetSkin()\n{\n      _skeletonAnimation = GetComponent\u003cSkeletonAnimation\u003e();\n      m = CreateTextureSizeAttachmentByTexture(_skeletonAnimation.skeleton.FindSlot(slot), texture);                     \n}\n"
+				},
+				{
+					"Type": "NodeCodeBlockFenceCloseMarker",
+					"Data": "```"
+				}
+			]
+		},
+		{
+			"ID": "20230508120821-87jdfda",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20230508120821-87jdfda",
+				"updated": "20230508120821"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "​"
+				},
+				{
+					"Type": "NodeImage",
+					"Data": "span",
+					"Children": [
+						{
+							"Type": "NodeBang"
+						},
+						{
+							"Type": "NodeOpenBracket"
+						},
+						{
+							"Type": "NodeLinkText"
+						},
+						{
+							"Type": "NodeCloseBracket"
+						},
+						{
+							"Type": "NodeOpenParen"
+						},
+						{
+							"Type": "NodeLinkDest",
+							"Data": "assets/net-img-906135-2f467b3bdb130a58-20230508120821-f419osn.png"
+						},
+						{
+							"Type": "NodeCloseParen"
+						}
+					]
+				},
+				{
+					"Type": "NodeText",
+					"Data": "​"
+				}
+			]
+		},
+		{
+			"ID": "20230508120821-trhbkd9",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20230508120821-trhbkd9",
+				"updated": "20230508120821"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "image.png"
+				}
+			]
+		},
+		{
+			"ID": "20230508120821-mvrtvuh",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20230508120821-mvrtvuh",
+				"updated": "20230508120821"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "但是这样不会根据图片大小换装 所以我们要重新计算Attachment"
+				}
+			]
+		},
+		{
+			"ID": "20230508120821-76mv59b",
+			"Type": "NodeCodeBlock",
+			"IsFencedCodeBlock": true,
+			"Properties": {
+				"id": "20230508120821-76mv59b",
+				"updated": "20230508120821"
+			},
+			"Children": [
+				{
+					"Type": "NodeCodeBlockFenceOpenMarker",
+					"Data": "```"
+				},
+				{
+					"Type": "NodeCodeBlockFenceInfoMarker",
+					"CodeBlockInfo": "Y3Nz"
+				},
+				{
+					"Type": "NodeCodeBlockCode",
+					"Data": "      attachment.UpdateOffsetByTexture2D(attachment, texture); \n"
+				},
+				{
+					"Type": "NodeCodeBlockFenceCloseMarker",
+					"Data": "```"
+				}
+			]
+		},
+		{
+			"ID": "20230508120821-l8w75ad",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20230508120821-l8w75ad",
+				"updated": "20230508120821"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "以上就是unity里Spine图片换装的思路和解决方法,欢迎交流~\nEnd ."
+				}
+			]
+		}
+	]
+}

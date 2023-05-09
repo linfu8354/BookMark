@@ -1,0 +1,59 @@
+{
+	"ID": "20230508230400-7ttqyoj",
+	"Spec": "1",
+	"Type": "NodeDocument",
+	"Properties": {
+		"id": "20230508230400-7ttqyoj",
+		"title": "随机方块噪波（RandomBlock）",
+		"updated": "20230508230431"
+	},
+	"Children": [
+		{
+			"ID": "20230508230420-nm6521x",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20230508230420-nm6521x",
+				"updated": "20230508230431"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "​"
+				},
+				{
+					"Type": "NodeImage",
+					"Data": "span",
+					"Children": [
+						{
+							"Type": "NodeBang"
+						},
+						{
+							"Type": "NodeOpenBracket"
+						},
+						{
+							"Type": "NodeLinkText",
+							"Data": "随机方块噪波（RandomBlock）"
+						},
+						{
+							"Type": "NodeCloseBracket"
+						},
+						{
+							"Type": "NodeOpenParen"
+						},
+						{
+							"Type": "NodeLinkDest",
+							"Data": "assets/随机方块噪波（RandomBlock）-20230508230419-by3jy3h.png"
+						},
+						{
+							"Type": "NodeCloseParen"
+						}
+					]
+				},
+				{
+					"Type": "NodeText",
+					"Data": "​"
+				}
+			]
+		}
+	]
+}

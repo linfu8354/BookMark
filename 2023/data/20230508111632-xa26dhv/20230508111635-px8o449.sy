@@ -1,0 +1,507 @@
+{
+	"ID": "20230508111635-px8o449",
+	"Spec": "1",
+	"Type": "NodeDocument",
+	"Properties": {
+		"id": "20230508111635-px8o449",
+		"scroll": "{\u0026quot;startId\u0026quot;:\u0026quot;20230508114822-ztg98xs\u0026quot;,\u0026quot;endId\u0026quot;:\u0026quot;20230508112227-4lkp6n2\u0026quot;,\u0026quot;scrollTop\u0026quot;:0,\u0026quot;focusId\u0026quot;:\u0026quot;20230508114822-ztg98xs\u0026quot;,\u0026quot;focusStart\u0026quot;:0,\u0026quot;focusEnd\u0026quot;:0}",
+		"title": "Vector.Angle知识",
+		"updated": "20230508160151"
+	},
+	"Children": [
+		{
+			"ID": "20230508114822-ztg98xs",
+			"Type": "NodeThematicBreak",
+			"Properties": {
+				"id": "20230508114822-ztg98xs"
+			}
+		},
+		{
+			"ID": "20230508111804-92bve17",
+			"Type": "NodeHeading",
+			"HeadingLevel": 6,
+			"Properties": {
+				"fold": "1",
+				"id": "20230508111804-92bve17",
+				"updated": "20230508113739"
+			},
+			"Children": [
+				{
+					"Type": "NodeTextMark",
+					"TextMarkType": "inline-memo",
+					"TextMarkInlineMemoContent": "角度",
+					"TextMarkTextContent": "Vector3.Angle"
+				}
+			]
+		},
+		{
+			"ID": "20230508112928-3ec67yb",
+			"Type": "NodeSuperBlock",
+			"Properties": {
+				"fold": "1",
+				"heading-fold": "1",
+				"id": "20230508112928-3ec67yb",
+				"updated": "20230508160143"
+			},
+			"Children": [
+				{
+					"Type": "NodeSuperBlockOpenMarker"
+				},
+				{
+					"Type": "NodeSuperBlockLayoutMarker",
+					"Data": "col"
+				},
+				{
+					"ID": "20230508112714-grfel5d",
+					"Type": "NodeCodeBlock",
+					"IsFencedCodeBlock": true,
+					"Properties": {
+						"id": "20230508112714-grfel5d",
+						"updated": "20230508112928"
+					},
+					"Children": [
+						{
+							"Type": "NodeCodeBlockFenceOpenMarker",
+							"Data": "```"
+						},
+						{
+							"Type": "NodeCodeBlockFenceInfoMarker",
+							"CodeBlockInfo": "dW5kZWZpbmVk"
+						},
+						{
+							"Type": "NodeCodeBlockCode",
+							"Data": "Vector3.Angle(A.posion,B.position);\n"
+						},
+						{
+							"Type": "NodeCodeBlockFenceCloseMarker",
+							"Data": "```"
+						}
+					]
+				},
+				{
+					"ID": "20230508111820-mu9wks8",
+					"Type": "NodeParagraph",
+					"Properties": {
+						"id": "20230508111820-mu9wks8",
+						"updated": "20230508160143"
+					},
+					"Children": [
+						{
+							"Type": "NodeText",
+							"Data": "​"
+						},
+						{
+							"Type": "NodeImage",
+							"Data": "span",
+							"Children": [
+								{
+									"Type": "NodeBang"
+								},
+								{
+									"Type": "NodeOpenBracket"
+								},
+								{
+									"Type": "NodeLinkText",
+									"Data": "image"
+								},
+								{
+									"Type": "NodeCloseBracket"
+								},
+								{
+									"Type": "NodeOpenParen"
+								},
+								{
+									"Type": "NodeLinkDest",
+									"Data": "assets/image-20230508112727-n4ckepv.png"
+								},
+								{
+									"Type": "NodeCloseParen"
+								}
+							]
+						},
+						{
+							"Type": "NodeText",
+							"Data": "​"
+						}
+					]
+				},
+				{
+					"Type": "NodeSuperBlockCloseMarker"
+				}
+			]
+		},
+		{
+			"ID": "20230508112932-l8lioj2",
+			"Type": "NodeSuperBlock",
+			"Properties": {
+				"fold": "1",
+				"heading-fold": "1",
+				"id": "20230508112932-l8lioj2",
+				"updated": "20230508160151"
+			},
+			"Children": [
+				{
+					"Type": "NodeSuperBlockOpenMarker"
+				},
+				{
+					"Type": "NodeSuperBlockLayoutMarker",
+					"Data": "col"
+				},
+				{
+					"ID": "20230508112501-rnovmp1",
+					"Type": "NodeCodeBlock",
+					"IsFencedCodeBlock": true,
+					"Properties": {
+						"id": "20230508112501-rnovmp1",
+						"updated": "20230508112933"
+					},
+					"Children": [
+						{
+							"Type": "NodeCodeBlockFenceOpenMarker",
+							"Data": "```"
+						},
+						{
+							"Type": "NodeCodeBlockFenceInfoMarker",
+							"CodeBlockInfo": "dW5kZWZpbmVk"
+						},
+						{
+							"Type": "NodeCodeBlockCode",
+							"Data": "Vector3.Angle(B.position-A.posion,B.position-C.position);\n"
+						},
+						{
+							"Type": "NodeCodeBlockFenceCloseMarker",
+							"Data": "```"
+						}
+					]
+				},
+				{
+					"ID": "20230508112900-gwriblg",
+					"Type": "NodeParagraph",
+					"Properties": {
+						"id": "20230508112900-gwriblg",
+						"updated": "20230508160151"
+					},
+					"Children": [
+						{
+							"Type": "NodeText",
+							"Data": "​"
+						},
+						{
+							"Type": "NodeImage",
+							"Data": "span",
+							"Children": [
+								{
+									"Type": "NodeBang"
+								},
+								{
+									"Type": "NodeOpenBracket"
+								},
+								{
+									"Type": "NodeLinkText",
+									"Data": "image"
+								},
+								{
+									"Type": "NodeCloseBracket"
+								},
+								{
+									"Type": "NodeOpenParen"
+								},
+								{
+									"Type": "NodeLinkDest",
+									"Data": "assets/image-20230508112759-y59oh1h.png"
+								},
+								{
+									"Type": "NodeCloseParen"
+								}
+							]
+						},
+						{
+							"Type": "NodeText",
+							"Data": "​"
+						}
+					]
+				},
+				{
+					"Type": "NodeSuperBlockCloseMarker"
+				}
+			]
+		},
+		{
+			"ID": "20230508114814-cgsfsk6",
+			"Type": "NodeThematicBreak",
+			"Properties": {
+				"fold": "1",
+				"heading-fold": "1",
+				"id": "20230508114814-cgsfsk6"
+			}
+		},
+		{
+			"ID": "20230508111836-z03htyf",
+			"Type": "NodeHeading",
+			"HeadingLevel": 6,
+			"Properties": {
+				"fold": "1",
+				"id": "20230508111836-z03htyf",
+				"updated": "20230508112545"
+			},
+			"Children": [
+				{
+					"Type": "NodeTextMark",
+					"TextMarkType": "inline-memo",
+					"TextMarkInlineMemoContent": "叉乘",
+					"TextMarkTextContent": "Vector3.Cross"
+				}
+			]
+		},
+		{
+			"ID": "20230508112327-pfv7wtd",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"fold": "1",
+				"heading-fold": "1",
+				"id": "20230508112327-pfv7wtd"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "求两个向量的法向量​"
+				}
+			]
+		},
+		{
+			"ID": "20230508112407-zyln5g5",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"fold": "1",
+				"heading-fold": "1",
+				"id": "20230508112407-zyln5g5",
+				"updated": "20230508112407"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "​"
+				},
+				{
+					"Type": "NodeImage",
+					"Data": "span",
+					"Children": [
+						{
+							"Type": "NodeBang"
+						},
+						{
+							"Type": "NodeOpenBracket"
+						},
+						{
+							"Type": "NodeLinkText",
+							"Data": "image"
+						},
+						{
+							"Type": "NodeCloseBracket"
+						},
+						{
+							"Type": "NodeOpenParen"
+						},
+						{
+							"Type": "NodeLinkDest",
+							"Data": "assets/image-20230508112407-j6txzi2.png"
+						},
+						{
+							"Type": "NodeCloseParen"
+						}
+					]
+				},
+				{
+					"Type": "NodeText",
+					"Data": "​"
+				}
+			]
+		},
+		{
+			"ID": "20230508112410-ov6q1a9",
+			"Type": "NodeCodeBlock",
+			"IsFencedCodeBlock": true,
+			"Properties": {
+				"fold": "1",
+				"heading-fold": "1",
+				"id": "20230508112410-ov6q1a9",
+				"updated": "20230508112418"
+			},
+			"Children": [
+				{
+					"Type": "NodeCodeBlockFenceOpenMarker",
+					"Data": "```"
+				},
+				{
+					"Type": "NodeCodeBlockFenceInfoMarker",
+					"CodeBlockInfo": "dW5kZWZpbmVk"
+				},
+				{
+					"Type": "NodeCodeBlockCode",
+					"Data": "Debug.DrawLine(B.position,Vector3.Cross(B.position-A.posion,B.position-C.position));\n"
+				},
+				{
+					"Type": "NodeCodeBlockFenceCloseMarker",
+					"Data": "```"
+				}
+			]
+		},
+		{
+			"ID": "20230508111846-rbwff8p",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"fold": "1",
+				"heading-fold": "1",
+				"id": "20230508111846-rbwff8p",
+				"updated": "20230508112219"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "三角形ABC围绕顶点B旋转，三条边都在跟随旋转。就可以使用这个求出旋转顶点的法向量以此来实时监测三角形的每条边的是否正确的跟随旋转。实现三角液压器算法就可以用这个。当然也需要判断 旋转角度的正负 。"
+				}
+			]
+		},
+		{
+			"ID": "20230508114818-tp6rctg",
+			"Type": "NodeThematicBreak",
+			"Properties": {
+				"fold": "1",
+				"heading-fold": "1",
+				"id": "20230508114818-tp6rctg"
+			}
+		},
+		{
+			"ID": "20230508112227-4lkp6n2",
+			"Type": "NodeHeading",
+			"HeadingLevel": 6,
+			"Properties": {
+				"fold": "1",
+				"id": "20230508112227-4lkp6n2",
+				"updated": "20230508113112"
+			},
+			"Children": [
+				{
+					"Type": "NodeTextMark",
+					"TextMarkType": "inline-memo",
+					"TextMarkInlineMemoContent": "点积",
+					"TextMarkTextContent": "Vector3.Dot"
+				}
+			]
+		},
+		{
+			"ID": "20230508112245-yo6g23c",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"fold": "1",
+				"heading-fold": "1",
+				"id": "20230508112245-yo6g23c",
+				"updated": "20230508112246"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "可以用来判断一个物体相对于另一个物体的位置,因为"
+				},
+				{
+					"Type": "NodeTextMark",
+					"TextMarkType": "strong",
+					"TextMarkTextContent": "a"
+				},
+				{
+					"Type": "NodeText",
+					"Data": "·"
+				},
+				{
+					"Type": "NodeTextMark",
+					"TextMarkType": "strong",
+					"TextMarkTextContent": "b"
+				},
+				{
+					"Type": "NodeText",
+					"Data": "=|a||b|cos\u003ca,b\u003e,当然用mathf.acos与vector3.normalize，也可以求出角度。"
+				}
+			]
+		},
+		{
+			"ID": "20230508112247-pr56h6o",
+			"Type": "NodeCodeBlock",
+			"IsFencedCodeBlock": true,
+			"Properties": {
+				"fold": "1",
+				"heading-fold": "1",
+				"id": "20230508112247-pr56h6o",
+				"updated": "20230508114309"
+			},
+			"Children": [
+				{
+					"Type": "NodeCodeBlockFenceOpenMarker",
+					"Data": "```"
+				},
+				{
+					"Type": "NodeCodeBlockFenceInfoMarker",
+					"CodeBlockInfo": "YyM="
+				},
+				{
+					"Type": "NodeCodeBlockCode",
+					"Data": "Vector3 dir=transform.TransformDirction(Vector3.forward);//这里可是任何方向\nVector3 toOther = other.position - transform.position;  \nif (Vector3.Dot(forward, toOther) \u003c 0)     print(\"The other transform is behind me!\");\n"
+				},
+				{
+					"Type": "NodeCodeBlockFenceCloseMarker",
+					"Data": "```"
+				}
+			]
+		},
+		{
+			"ID": "20230508112302-m3ob86z",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"fold": "1",
+				"heading-fold": "1",
+				"id": "20230508112302-m3ob86z",
+				"updated": "20230508114612"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "换而言之上面这个就是求other在transform正方向上的投影。然后根据角度就可以判断出是否在一条线上。当然标准化了的两个向量点乘，在一个正方向返回就是1，反方向返回就是-1#"
+				}
+			]
+		},
+		{
+			"ID": "20230508114650-yzae9xf",
+			"Type": "NodeThematicBreak",
+			"Properties": {
+				"fold": "1",
+				"heading-fold": "1",
+				"id": "20230508114650-yzae9xf"
+			}
+		},
+		{
+			"ID": "20230508113800-mfnmpuj",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"fold": "1",
+				"heading-fold": "1",
+				"id": "20230508113800-mfnmpuj"
+			}
+		},
+		{
+			"ID": "20230508113903-5fvao0u",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"fold": "1",
+				"heading-fold": "1",
+				"id": "20230508113903-5fvao0u"
+			}
+		},
+		{
+			"ID": "20230508114829-4jlz9sz",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20230508114829-4jlz9sz",
+				"updated": "20230508114946"
+			}
+		}
+	]
+}

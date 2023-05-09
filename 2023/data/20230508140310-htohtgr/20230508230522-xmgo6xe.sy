@@ -1,0 +1,39 @@
+{
+	"ID": "20230508230522-xmgo6xe",
+	"Spec": "1",
+	"Type": "NodeDocument",
+	"Properties": {
+		"id": "20230508230522-xmgo6xe",
+		"title": "材质属性常见类型",
+		"updated": "20230508230609"
+	},
+	"Children": [
+		{
+			"ID": "20230508230522-2rpyykw",
+			"Type": "NodeCodeBlock",
+			"IsFencedCodeBlock": true,
+			"Properties": {
+				"id": "20230508230522-2rpyykw",
+				"updated": "20230508230609"
+			},
+			"Children": [
+				{
+					"Type": "NodeCodeBlockFenceOpenMarker",
+					"Data": "```"
+				},
+				{
+					"Type": "NodeCodeBlockFenceInfoMarker",
+					"CodeBlockInfo": "Y2c="
+				},
+				{
+					"Type": "NodeCodeBlockCode",
+					"Data": "   [Header(Custom)]\n        // 自定义枚举\n        [ Enum(CustomEnum1,1,CustomEnum2,2)]  _CustomEnum (\"CustomEnum\", Float) = 1\n\n        // 内置枚举\n        [ Header(Option)]\n        [ Enum(UnityEngine.Rendering.BlendOp)]  _BlendOp  (\"BlendOp\", Float) = 0\n        [ Enum(UnityEngine.Rendering.BlendMode)] _SrcBlend (\"SrcBlend\", Float) = 1\n        [ Enum(UnityEngine.Rendering.BlendMode)] _DstBlend (\"DstBlend\", Float) = 0\n        [ Enum(Off, 0, On, 1)]_ZWriteMode (\"ZWriteMode\", float) = 1\n        [ Enum(UnityEngine.Rendering.CullMode)]_CullMode (\"CullMode\", float) = 2\n        [ Enum(UnityEngine.Rendering.CompareFunction)]_ZTestMode (\"ZTestMode\", Float) = 4\n        [ Enum(UnityEngine.Rendering.ColorWriteMask)]_ColorMask (\"ColorMask\", Float) = 15\n\n        [ Header(Stencil)]\n        [ Enum(UnityEngine.Rendering.CompareFunction)]_StencilComp (\"Stencil Comparison\", Float) = 8\n        [ Enum(UnityEngine.Rendering.StencilOp)]_StencilPass (\"Stencil Pass\", Float) = 0\n        [ Enum(UnityEngine.Rendering.StencilOp)]_StencilFail (\"Stencil Fail\", Float) = 0\n        [ Enum(UnityEngine.Rendering.StencilOp)]_StencilZFail (\"Stencil ZFail\", Float) = 0\n        // Slider\n        [ Header(Slider)]\n        [ IntRange]_StencilWriteMask (\"Stencil Write Mask\", Range(0,255)) = 255\n        [ IntRange]_StencilReadMask (\"Stencil Read Mask\", Range(0,255)) = 255\n        [ IntRange]_Stencil (\"Stencil ID\", Range(0,255)) = 0\n        [ PowerSlider(3.0)] _Shininess (\"Shininess\", Range (0.01, 1)) = 0.08\n\n        // Toggle\n        [ Header(Toggle)]\n        [ Toggle] _Toggle(\"Toggle\", Float) = 0\n        [ MaterialToggle] _MaterialToggle(\"Material Toggle\", Float) = 0\n      \n        [ Header(KeywordEnum)]\n        // 每个选项都将被设置 _OVERLAY_NONE, _OVERLAY_ADD, _OVERLAY_MULTIPLY shader keywords.\n        // 配合multi_compile使用 每个名称都将 采用“属性名”+ 下划线 +“枚举名”这种形式的大写着色器关键字。最多可提供 9 个名称。\n        [KeywordEnum(None, Add, Multiply)] _Overlay (\"Overlay mode\", Float) = 0\n\n        // 空间划分\n        [ Space] _Prop1 (\"Prop1\", Float) = 0\n        [Space(50)] _Prop2 (\"Prop2\", Float) = 0\n\n\n        [ Header(Texture)]\n        // 用来修饰贴图变量，在inspcetor 面板中不再显示该贴图的tilling/offset 属性\n        [ NoScaleOffset]_MainTex (\"No Scale Offset\", 2D) = \"white\" {}\n        // 用来修饰贴图变量，该贴图必须是一个法线贴图\n        [ Normal]_NormalTex (\"NormalTex\", 2D) = \"white\" {}\n        // 用来修饰贴图变量，该贴图必须是一个high-dynamic range(HDR)贴图\n        [ HDR]_HDRTex (\"HDRTex\", 2D) = \"white\" {} \n\n"
+				},
+				{
+					"Type": "NodeCodeBlockFenceCloseMarker",
+					"Data": "```"
+				}
+			]
+		}
+	]
+}
